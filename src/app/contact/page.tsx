@@ -1,7 +1,6 @@
 // import { Metadata } from 'next';
 import ContactForm from '@/components/forms/ContactForm';
 import { CONTACT_INFO, FAQ_DATA } from '@/constants';
-import StarsAnimation from '@/components/ui/StarsAnimation';
 
 export const metadata = {
   title: 'Contact GoldsBet - Gaming App Support',
@@ -15,7 +14,6 @@ export default function Contact() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
         <section className="relative h-[70vh] bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 overflow-hidden">
-          <StarsAnimation />
           
           <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-4xl mx-auto">

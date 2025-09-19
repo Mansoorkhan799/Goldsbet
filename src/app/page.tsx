@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
@@ -92,11 +93,15 @@ export default function Home() {
                 
                 {/* Right Section - Image */}
                 <div className="flex justify-center lg:justify-end">
-                  <div className="relative w-full max-w-md lg:max-w-lg">
-                    <img
+                  <div className="relative w-full max-w-sm lg:max-w-md">
+                    <Image
                       src="/goldsbet pakistan.webp"
                       alt="GoldsBet Pakistan App"
+                      width={400}
+                      height={400}
                       className="w-full h-auto rounded-lg shadow-lg"
+                      quality={95}
+                      priority={false}
                     />
                   </div>
                 </div>

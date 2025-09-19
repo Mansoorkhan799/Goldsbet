@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import StarsAnimation from '@/components/ui/StarsAnimation';
 
 export const metadata: Metadata = {
   title: 'Disclaimer & Terms - GoldsBet Gaming App',
@@ -21,7 +20,6 @@ export default function Disclaimer() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-[70vh] bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 overflow-hidden">
-        <StarsAnimation />
         
         <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
