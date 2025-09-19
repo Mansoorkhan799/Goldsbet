@@ -14,7 +14,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-14 sm:h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
+            <Link href="/" className="flex items-center">
               <Image 
                 src="/GoldsBet Logo.webp" 
                 alt="GoldsBet Logo" 
@@ -22,7 +22,6 @@ export default function Navigation() {
                 height={40}
                 className="h-8 w-auto sm:h-10 sm:w-auto"
               />
-              <span className="text-lg sm:text-xl lg:text-2xl font-bold text-white">GoldsBet</span>
             </Link>
           </div>
 
