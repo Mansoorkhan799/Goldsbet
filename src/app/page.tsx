@@ -40,7 +40,7 @@ export default function Home() {
             <StarsAnimation />
             
             {/* Content */}
-            <div className="relative z-10 flex flex-col items-center justify-center min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] px-4 sm:px-6 lg:px-8 pt-24 sm:pt-32 lg:pt-36 pb-16 sm:pb-20">
+            <div className="relative z-10 flex flex-col items-center justify-center min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] px-4 sm:px-6 lg:px-8 pt-16 sm:pt-32 lg:pt-36 pb-16 sm:pb-20">
               <div className="text-center max-w-4xl mx-auto">
                 {/* Main heading */}
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 text-white leading-tight">
