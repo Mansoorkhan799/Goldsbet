@@ -186,6 +186,7 @@ export default function Home() {
                       width={400}
                       height={300}
                       className="w-full h-auto rounded-lg shadow-lg object-contain max-w-xs lg:max-w-sm"
+                      priority
                     />
                   </div>
                 </div>
@@ -996,9 +997,9 @@ export default function Home() {
                     In conclusion, Goldsbet game is a trending gaming app that is popular for all the right reasons. First of all, it is an international app that is available in multiple countries. It has hundreds of engaging and immersive games that you can play in HD graphics. On this free app, you will find ways to earn real cash, such as games, rewards, and bonuses, as well as a referral program. It is safe and secure, and there are fair games to play. Anyone can easily download it and set up their account to play the games. Furthermore, there are different transaction options such as cryptocurrency and e-wallets. Players are loving this free app, and you should also download it and enjoy starting.
                   </p>
                 </div>
-              </div>
-            </div>
-          </section>
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-yellow-600 text-white">

@@ -5,9 +5,10 @@ const nextConfig: NextConfig = {
   ...(process.env.ANALYZE === 'true' && {
     webpack: (config, { dev, isServer }) => {
       if (!dev && !isServer) {
-        const { BundleAnalyzerPlugin } = require('@next/bundle-analyzer')({
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const BundleAnalyzerPlugin = require('@next/bundle-analyzer')({
           enabled: true,
-        });
+        }).BundleAnalyzerPlugin;
         config.plugins.push(new BundleAnalyzerPlugin());
       }
       return config;
