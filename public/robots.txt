@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Host
+Host: https://goldsbet.com
+
+# Sitemaps
+Sitemap: https://goldsbet.com/sitemap.xml

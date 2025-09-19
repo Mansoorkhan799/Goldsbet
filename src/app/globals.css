@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Prevent browser extension styling conflicts */
+body[data-gr-ext-installed] {
+  /* Reset any Grammarly styling */
+}
+
+body[data-new-gr-c-s-check-loaded] {
+  /* Prevent Grammarly from interfering with layout */
+}
+
+body[cz-shortcut-listen] {
+  /* Handle other extension conflicts */
+}
+
+/* Hide extension-injected elements */
+[data-grammarly-shadow-root],
+[data-gramm] {
+  display: none !important;
+}
