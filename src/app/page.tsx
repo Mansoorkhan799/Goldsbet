@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import StarsAnimation from '@/components/ui/StarsAnimation';
 
 export const metadata: Metadata = {
   title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
@@ -37,7 +36,6 @@ export default function Home() {
     <div className="min-h-screen">
           {/* GitHub-style Hero Section */}
           <section className="relative min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 overflow-hidden">
-            <StarsAnimation />
             
             {/* Content */}
             <div className="relative z-10 flex flex-col items-center justify-center min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] px-4 sm:px-6 lg:px-8 pt-8 sm:pt-32 lg:pt-36 pb-16 sm:pb-20">
