@@ -16,11 +16,11 @@ export default function Navigation() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
               <Image 
-                src="/goldsbet pakistan.webp" 
+                src="/GoldsBet Logo.webp" 
                 alt="GoldsBet Logo" 
-                width={32}
-                height={32}
-                className="h-8 w-8 sm:h-10 sm:w-10"
+                width={40}
+                height={40}
+                className="h-8 w-auto sm:h-10 sm:w-auto"
               />
               <span className="text-lg sm:text-xl lg:text-2xl font-bold text-white">GoldsBet</span>
             </Link>
