@@ -18,6 +18,7 @@ export default function Footer() {
                 width={120} 
                 height={40} 
                 className="h-10 w-auto"
+                style={{ width: 'auto', height: 'auto' }}
               />
             </div>
             <p className="text-gray-300 mb-4 max-w-md">

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import AppInfoAccordion from '@/components/ui/AppInfoAccordion';
 
 export const metadata: Metadata = {
@@ -179,9 +180,11 @@ export default function Home() {
                 {/* Right Section - Image */}
                 <div className="flex justify-center lg:justify-end">
                   <div className="relative w-full max-w-sm lg:max-w-md">
-                    <img
+                    <Image
                       src="/goldsbet pakistan.webp"
                       alt="GoldsBet Pakistan App"
+                      width={400}
+                      height={300}
                       className="w-full h-auto rounded-lg shadow-lg object-contain max-w-xs lg:max-w-sm"
                     />
                   </div>

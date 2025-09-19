@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "postbuild": "next-sitemap",
+    "analyze": "ANALYZE=true npm run build",
+    "analyze:win": "set ANALYZE=true && npm run build",
     "clean": "rm -rf .next && npm cache clean --force",
     "clean:win": "rmdir /s /q .next && npm cache clean --force",
     "dev:clean": "npm run clean && npm run dev",

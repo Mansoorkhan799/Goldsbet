@@ -1,6 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Bundle analysis
+  ...(process.env.ANALYZE === 'true' && {
+    webpack: (config, { dev, isServer }) => {
+      if (!dev && !isServer) {
+        const { BundleAnalyzerPlugin } = require('@next/bundle-analyzer')({
+          enabled: true,
+        });
+        config.plugins.push(new BundleAnalyzerPlugin());
+      }
+      return config;
+    },
+  }),
   // Performance optimizations
   compress: true,
   poweredByHeader: false,
@@ -27,6 +39,23 @@ const nextConfig: NextConfig = {
         poll: 1000,
         aggregateTimeout: 300,
         ignored: /node_modules/,
+      };
+    }
+
+    // Optimize bundle size
+    if (!dev) {
+      config.optimization = {
+        ...config.optimization,
+        splitChunks: {
+          chunks: 'all',
+          cacheGroups: {
+            vendor: {
+              test: /[\\/]node_modules[\\/]/,
+              name: 'vendors',
+              chunks: 'all',
+            },
+          },
+        },
       };
     }
 
