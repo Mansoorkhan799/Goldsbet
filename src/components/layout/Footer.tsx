@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { CONTACT_INFO } from '@/constants';
 
 export default function Footer() {
@@ -10,7 +11,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-yellow-400 mb-4">GoldsBet</h3>
+            <div className="mb-4">
+              <Image 
+                src="/GoldsBet Logo.webp" 
+                alt="GoldsBet Logo" 
+                width={120} 
+                height={40} 
+                className="h-10 w-auto"
+              />
+            </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Your premier destination for sports betting and online gaming. 
               Experience the thrill of betting with competitive odds and secure transactions.
