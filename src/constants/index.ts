@@ -50,12 +50,11 @@ export const TEAM_MEMBERS: TeamMember[] = [
 // Contact information
 export const CONTACT_INFO = {
   email: {
-    general: 'info@goldsbet.com',
-    support: 'support@goldsbet.com',
-    privacy: 'privacy@goldsbet.com',
-    legal: 'legal@goldsbet.com',
+    general: 'avacarney1711@gmail.com',
+    support: 'avacarney1711@gmail.com',
+    privacy: 'avacarney1711@gmail.com',
+    legal: 'avacarney1711@gmail.com',
   },
-  phone: '+1 (234) 567-890',
   address: {
     street: '123 Business Street',
     suite: 'Suite 100',

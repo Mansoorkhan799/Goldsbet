@@ -74,11 +74,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href={`tel:${CONTACT_INFO.phone}`} className="text-gray-300 hover:text-yellow-400 transition-colors">
-                  {CONTACT_INFO.phone}
-                </a>
-              </li>
-              <li>
                 <span className="text-gray-300">24/7 Customer Support</span>
               </li>
             </ul>
