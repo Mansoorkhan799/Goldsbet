@@ -364,9 +364,48 @@ export default function Home() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
                   Why Choose GoldsBet App?
             </h2>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
                   Experience the best gaming platform with international standards, secure payments, and exciting rewards.
             </p>
+            
+            {/* New Images Gallery */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/Golds bet.webp" 
+                  alt="GoldsBet Gaming Experience" 
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Premium Gaming</h3>
+                  <p className="text-gray-600 text-sm">Experience top-quality games with HD graphics and smooth gameplay.</p>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/Goldsbet Game Pakistan.webp" 
+                  alt="GoldsBet Pakistan Gaming" 
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Localized Experience</h3>
+                  <p className="text-gray-600 text-sm">Designed specifically for Pakistan, India & Bangladesh players.</p>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/Goldsbet pk.webp" 
+                  alt="GoldsBet PK Features" 
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Secure & Reliable</h3>
+                  <p className="text-gray-600 text-sm">100% secure transactions with local payment methods.</p>
+                </div>
+              </div>
+            </div>
           </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">

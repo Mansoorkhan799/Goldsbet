@@ -85,6 +85,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         
         {/* Standard meta tags */}
+        <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/goldsbet.webp" />
         <link rel="icon" type="image/webp" href="/goldsbet.webp" />
         <link rel="manifest" href="/site.webmanifest" />
