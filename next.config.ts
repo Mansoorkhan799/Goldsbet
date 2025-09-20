@@ -133,6 +133,10 @@ const nextConfig: NextConfig = {
             value: 'public, max-age=0, must-revalidate',
           },
           {
+            key: 'Content-Type',
+            value: 'application/javascript; charset=utf-8',
+          },
+          {
             key: 'Service-Worker-Allowed',
             value: '/',
           },
@@ -148,7 +152,7 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: '/:path*\\.(css|js)',
+        source: '/:path*\\.css',
         headers: [
           {
             key: 'Cache-Control',
@@ -157,6 +161,19 @@ const nextConfig: NextConfig = {
           {
             key: 'Content-Type',
             value: 'text/css; charset=utf-8',
+          },
+        ],
+      },
+      {
+        source: '/:path*\\.js',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+          {
+            key: 'Content-Type',
+            value: 'application/javascript; charset=utf-8',
           },
         ],
       },

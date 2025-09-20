@@ -78,7 +78,6 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <head>
         {/* Preload critical resources */}
-        <link rel="preload" href="/GoldsBet Logo.webp" as="image" />
         <link rel="preload" href="/goldsbet pakistan.webp" as="image" />
         
         {/* DNS prefetch for external resources */}
