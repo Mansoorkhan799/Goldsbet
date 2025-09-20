@@ -29,5 +29,27 @@
   "categories": ["games", "entertainment", "sports"],
   "lang": "en",
   "scope": "/",
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "/goldsbet pakistan.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Download App",
+      "short_name": "Download",
+      "description": "Download GoldsBet app",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/goldsbet.webp",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
 }
