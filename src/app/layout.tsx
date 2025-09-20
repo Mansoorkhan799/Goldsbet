@@ -13,14 +13,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "GoldsBet - Premium Betting Platform | Pakistan India Bangladesh",
-    template: "%s | GoldsBet"
+    default: "Golds Bet - Premium Betting Platform | Pakistan India Bangladesh",
+    template: "%s | Golds Bet"
   },
-  description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
-  keywords: ["goldsbet", "betting", "sports betting", "online betting", "casino", "gambling", "odds", "live betting", "pakistan betting", "india betting", "bangladesh betting", "mobile betting app", "easyPaisa", "jazzCash", "cryptocurrency betting"],
-  authors: [{ name: "GoldsBet Team" }],
-  creator: "GoldsBet",
-  publisher: "GoldsBet",
+  description: "Golds Bet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
+  keywords: ["golds bet", "betting", "sports betting", "online betting", "casino", "gambling", "odds", "live betting", "pakistan betting", "india betting", "bangladesh betting", "mobile betting app", "easyPaisa", "jazzCash", "cryptocurrency betting"],
+  authors: [{ name: "Golds Bet Team" }],
+  creator: "Golds Bet",
+  publisher: "Golds Bet",
   formatDetection: {
     email: false,
     address: false,
@@ -34,22 +34,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://goldsbetpk.tech",
-    title: "GoldsBet - Premium Betting Platform | Pakistan India Bangladesh",
-    description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
-    siteName: "GoldsBet",
+    title: "Golds Bet - Premium Betting Platform | Pakistan India Bangladesh",
+    description: "Golds Bet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
+    siteName: "Golds Bet",
     images: [
       {
         url: "https://goldsbetpk.tech/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "GoldsBet Premium Betting Platform",
+        alt: "Golds Bet Premium Betting Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GoldsBet - Premium Betting Platform | Pakistan India Bangladesh",
-    description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions.",
+    title: "Golds Bet - Premium Betting Platform | Pakistan India Bangladesh",
+    description: "Golds Bet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions.",
     creator: "@goldsbet",
     images: ["https://goldsbetpk.tech/og-image.jpg"],
   },

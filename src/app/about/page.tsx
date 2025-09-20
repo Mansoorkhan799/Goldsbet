@@ -3,17 +3,17 @@ import Link from 'next/link';
 import { TEAM_MEMBERS } from '@/constants';
 
 export const metadata: Metadata = {
-  title: 'About GoldsBet - Premium Gaming App',
-  description: 'Learn about GoldsBet gaming app - the ultimate platform for Pakistan, India & Bangladesh. Discover our commitment to secure gaming, fair play, and real cash rewards.',
-  keywords: ['about goldsbet', 'gaming app', 'casino app', 'pakistan gaming', 'india gaming', 'bangladesh gaming', 'mobile gaming', 'real money gaming'],
+  title: 'About Golds Bet - Premium Gaming App',
+  description: 'Learn about Golds Bet gaming app - the ultimate platform for Pakistan, India & Bangladesh. Discover our commitment to secure gaming, fair play, and real cash rewards.',
+  keywords: ['about golds bet', 'gaming app', 'casino app', 'pakistan gaming', 'india gaming', 'bangladesh gaming', 'mobile gaming', 'real money gaming'],
   openGraph: {
-    title: 'About GoldsBet - Premium Gaming App',
-    description: 'Learn about GoldsBet gaming app - the ultimate platform for Pakistan, India & Bangladesh. Discover our commitment to secure gaming, fair play, and real cash rewards.',
-    url: 'https://goldsbet.com/about',
-    siteName: 'GoldsBet',
+    title: 'About Golds Bet - Premium Gaming App',
+    description: 'Learn about Golds Bet gaming app - the ultimate platform for Pakistan, India & Bangladesh. Discover our commitment to secure gaming, fair play, and real cash rewards.',
+    url: 'https://goldsbetpk.tech/about',
+    siteName: 'Golds Bet',
   },
   alternates: {
-    canonical: 'https://goldsbet.com/about',
+    canonical: 'https://goldsbetpk.tech/about',
   },
 };
 
@@ -28,11 +28,11 @@ export default function About() {
                 <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
                   About{' '}
                   <Link href="/" className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent hover:text-yellow-300 transition-colors">
-                    GoldsBet
+                    Golds Bet
                   </Link>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                  The ultimate gaming app for Pakistan, India & Bangladesh. Experience secure gaming with real cash rewards and international standards.
+                  The ultimate Golds Bet gaming app for Pakistan, India & Bangladesh. Experience secure gaming with real cash rewards and international standards.
                 </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Gaming Platform</h2>
               <p className="text-lg text-gray-600 mb-4">
-                <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> is an international gaming app designed specifically for players in Pakistan, India, and Bangladesh. 
+                <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">Golds Bet</Link> is an international gaming app designed specifically for players in Pakistan, India, and Bangladesh. 
                 We understand the gaming preferences of these regions and have created a platform that offers the perfect 
                 blend of traditional and modern gaming experiences.
               </p>

@@ -2,7 +2,7 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "GoldsBet",
+    "name": "Golds Bet",
     "description": "Premium sports betting platform offering competitive odds, live betting, and secure transactions",
     "url": "https://goldsbetpk.tech",
     "logo": "https://goldsbetpk.tech/goldsbet.webp",
@@ -38,12 +38,12 @@ export default function StructuredData() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "GoldsBet",
+    "name": "Golds Bet",
     "url": "https://goldsbetpk.tech",
     "description": "Your premier destination for sports betting and online gaming in Pakistan, India, and Bangladesh",
     "publisher": {
       "@type": "Organization",
-      "name": "GoldsBet"
+      "name": "Golds Bet"
     },
     "potentialAction": {
       "@type": "SearchAction",
@@ -63,8 +63,8 @@ export default function StructuredData() {
   const mobileAppSchema = {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
-    "name": "GoldsBet App",
-    "description": "Download GoldsBet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.",
+    "name": "Golds Bet App",
+    "description": "Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.",
     "url": "https://goldsbetpk.tech",
     "operatingSystem": ["Android", "iOS"],
     "applicationCategory": "GameApplication",
@@ -104,26 +104,26 @@ export default function StructuredData() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is GoldsBet app free to download?",
+        "name": "Is Golds Bet app free to download?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, the GoldsBet app is completely free to download for both Android and iOS devices."
+          "text": "Yes, the Golds Bet app is completely free to download for both Android and iOS devices."
         }
       },
       {
         "@type": "Question",
-        "name": "What payment methods does GoldsBet support?",
+        "name": "What payment methods does Golds Bet support?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "GoldsBet supports EasyPaisa, JazzCash, and cryptocurrency payments for Pakistan, India, and Bangladesh users."
+          "text": "Golds Bet supports EasyPaisa, JazzCash, and cryptocurrency payments for Pakistan, India, and Bangladesh users."
         }
       },
       {
         "@type": "Question",
-        "name": "Is GoldsBet safe and secure?",
+        "name": "Is Golds Bet safe and secure?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, GoldsBet uses end-to-end encryption, fair games, and secure transactions with local payment methods."
+          "text": "Yes, Golds Bet uses end-to-end encryption, fair games, and secure transactions with local payment methods."
         }
       }
     ]

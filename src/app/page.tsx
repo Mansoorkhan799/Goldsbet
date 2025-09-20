@@ -5,20 +5,20 @@ import FAQAccordion from '@/components/ui/FAQAccordion';
 import MoveToTop from '@/components/ui/MoveToTop';
 
 export const metadata: Metadata = {
-  title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
-  description: 'Download GoldsBet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting. Available in Pakistan, India, and Bangladesh with secure payments.',
-  keywords: ['goldsbet app', 'gaming app', 'casino games', 'sports betting', 'pakistan gaming', 'india gaming', 'bangladesh gaming', 'slot machines', 'poker games', 'fish shooting', 'live betting'],
+  title: 'Golds Bet Game Pakistan | Free Download for Android and iOS',
+  description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting. Available in Pakistan, India, and Bangladesh with secure payments.',
+  keywords: ['golds bet app', 'gaming app', 'casino games', 'sports betting', 'pakistan gaming', 'india gaming', 'bangladesh gaming', 'slot machines', 'poker games', 'fish shooting', 'live betting'],
   openGraph: {
-    title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
-    description: 'Download GoldsBet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
+    title: 'Golds Bet Game Pakistan | Free Download for Android and iOS',
+    description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
     url: 'https://goldsbetpk.tech',
-    siteName: 'GoldsBet',
+    siteName: 'Golds Bet',
     images: [
       {
         url: 'https://goldsbetpk.tech/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'GoldsBet Gaming App',
+        alt: 'Golds Bet Gaming App',
       },
     ],
     locale: 'en_US',
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
-    description: 'Download GoldsBet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
+    title: 'Golds Bet Game Pakistan | Free Download for Android and iOS',
+    description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
     images: ['https://goldsbetpk.tech/og-image.jpg'],
   },
   alternates: {
@@ -38,15 +38,15 @@ export const metadata: Metadata = {
 export default function Home() {
   const faqData = [
     {
-      question: "Is the Goldsbet game safe?",
+      question: "Is the Golds Bet game safe?",
       answer: "Yes, it is end-to-end encrypted and 100% safe to use. We use advanced security measures to protect your data and transactions."
     },
     {
-      question: "What games can I play on Goldsbet online?",
+      question: "What games can I play on Golds Bet online?",
       answer: "Check the categories and you will find games like Fortune Gems, Rummy, Andar Bahr, Teen Patti, Fishing Rush, and many other options."
     },
     {
-      question: "Can I earn real money on the Goldsbet app?",
+      question: "Can I earn real money on the Golds Bet app?",
       answer: "Yes, absolutely, you can earn real cash and income on this app through various games, bonuses, and referral programs."
     },
     {
@@ -82,17 +82,17 @@ export default function Home() {
                 {/* Main heading */}
                 <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 text-white leading-tight">
                   <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                    GoldsBet Game Pakistan
+                    Golds Bet Game Pakistan
                   </span>
                   <br />
                   <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-300 mt-2 block">
                     Free Download for Android and iOS
                   </span>
-            </h1>
+                </h1>
 
                 {/* Subtitle */}
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
-                  The ultimate gaming app for Pakistan, India & Bangladesh. Play slots, cards, poker, fish shooting games, and sports betting with secure payments and real cash rewards.
+                  The ultimate Golds Bet gaming app for Pakistan, India & Bangladesh. Play slots, cards, poker, fish shooting games, and sports betting with secure payments and real cash rewards.
                 </p>
                 
                 {/* Download Button */}
@@ -362,10 +362,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  Why Choose GoldsBet App?
+                  Why Choose Golds Bet App?
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-                  Experience the best gaming platform with international standards, secure payments, and exciting rewards.
+                  Experience the best Golds Bet gaming platform with international standards, secure payments, and exciting rewards.
             </p>
             
           </div>
@@ -451,10 +451,10 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12 sm:mb-16 lg:mb-20">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  GoldsBet App Screenshots
+                  Golds Bet App Screenshots
                 </h2>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
-                  See the GoldsBet app in action with these real screenshots showcasing our features.
+                  See the Golds Bet app in action with these real screenshots showcasing our features.
                 </p>
               </div>
               
@@ -463,7 +463,7 @@ export default function Home() {
                   <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Premium Gaming Experience</h3>
                   <img 
                     src="/Golds%20bet.webp" 
-                    alt="GoldsBet Premium Gaming Experience" 
+                    alt="Golds Bet Premium Gaming Experience" 
                     className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
@@ -472,7 +472,7 @@ export default function Home() {
                   <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Localized Payment Methods</h3>
                   <img 
                     src="/Goldsbet%20Game%20Pakistan.webp" 
-                    alt="GoldsBet Pakistan Payment Methods" 
+                    alt="Golds Bet Pakistan Payment Methods" 
                     className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
@@ -481,7 +481,7 @@ export default function Home() {
                   <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Secure Gaming Platform</h3>
                   <img 
                     src="/Goldsbet%20pk.webp" 
-                    alt="GoldsBet PK Secure Platform" 
+                    alt="Golds Bet PK Secure Platform" 
                     className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
@@ -608,10 +608,10 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Download & Install GoldsBet Game?
+                  How to Download & Install Golds Bet Game?
                 </h2>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600">
-                  Follow these simple steps to get started with GoldsBet on your device.
+                  Follow these simple steps to get started with Golds Bet on your device.
                 </p>
               </div>
 
@@ -678,7 +678,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Create an Account and Register on the GoldsBet Game App?
+                  How to Create an Account and Register on the Golds Bet Game App?
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <div className="bg-gray-50 p-4 sm:p-6 rounded-lg">
