@@ -78,9 +78,6 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <head>
         {/* Preload critical resources */}
-        <link rel="preload" href="/_next/static/css/app/layout.css" as="style" />
-        <link rel="preload" href="/_next/static/css/app/page.css" as="style" />
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" />
         <link rel="preload" href="/GoldsBet Logo.webp" as="image" />
         <link rel="preload" href="/goldsbet pakistan.webp" as="image" />
         
