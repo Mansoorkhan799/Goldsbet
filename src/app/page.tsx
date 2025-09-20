@@ -464,7 +464,7 @@ export default function Home() {
                   <img 
                     src="/Golds%20bet.webp" 
                     alt="GoldsBet Premium Gaming Experience" 
-                    className="w-full max-w-3xl mx-auto rounded-xl shadow-xl"
+                    className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
                 
@@ -473,7 +473,7 @@ export default function Home() {
                   <img 
                     src="/Goldsbet%20Game%20Pakistan.webp" 
                     alt="GoldsBet Pakistan Payment Methods" 
-                    className="w-full max-w-3xl mx-auto rounded-xl shadow-xl"
+                    className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
                 
@@ -482,7 +482,7 @@ export default function Home() {
                   <img 
                     src="/Goldsbet%20pk.webp" 
                     alt="GoldsBet PK Secure Platform" 
-                    className="w-full max-w-3xl mx-auto rounded-xl shadow-xl"
+                    className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
               </div>
