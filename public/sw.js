@@ -13,9 +13,9 @@ const STATIC_ASSETS = [
   '/GoldsBet Logo.webp',
   '/goldsbet pakistan.webp',
   '/goldsbet.webp',
-  '/Golds bet.webp',
-  '/Goldsbet Game Pakistan.webp',
-  '/Goldsbet pk.webp',
+  '/Golds%20bet.webp',
+  '/Goldsbet%20Game%20Pakistan.webp',
+  '/Goldsbet%20pk.webp',
   '/site.webmanifest',
   '/favicon.ico'
 ];

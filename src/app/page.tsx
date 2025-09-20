@@ -369,40 +369,43 @@ export default function Home() {
             </p>
             
             {/* New Images Gallery */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                <img 
-                  src="/Golds bet.webp" 
-                  alt="GoldsBet Gaming Experience" 
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Premium Gaming</h3>
-                  <p className="text-gray-600 text-sm">Experience top-quality games with HD graphics and smooth gameplay.</p>
+            <div className="mb-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Featured Images</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border-2 border-gray-200">
+                  <img 
+                    src="/Golds%20bet.webp" 
+                    alt="GoldsBet Gaming Experience" 
+                    className="w-full h-64 object-cover"
+                  />
+                  <div className="p-4">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Premium Gaming</h3>
+                    <p className="text-gray-600 text-sm">Experience top-quality games with HD graphics and smooth gameplay.</p>
+                  </div>
                 </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                <img 
-                  src="/Goldsbet Game Pakistan.webp" 
-                  alt="GoldsBet Pakistan Gaming" 
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Localized Experience</h3>
-                  <p className="text-gray-600 text-sm">Designed specifically for Pakistan, India & Bangladesh players.</p>
+                
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border-2 border-gray-200">
+                  <img 
+                    src="/Goldsbet%20Game%20Pakistan.webp" 
+                    alt="GoldsBet Pakistan Gaming" 
+                    className="w-full h-64 object-cover"
+                  />
+                  <div className="p-4">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Localized Experience</h3>
+                    <p className="text-gray-600 text-sm">Designed specifically for Pakistan, India & Bangladesh players.</p>
+                  </div>
                 </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                <img 
-                  src="/Goldsbet pk.webp" 
-                  alt="GoldsBet PK Features" 
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Secure & Reliable</h3>
-                  <p className="text-gray-600 text-sm">100% secure transactions with local payment methods.</p>
+                
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border-2 border-gray-200">
+                  <img 
+                    src="/Goldsbet%20pk.webp" 
+                    alt="GoldsBet PK Features" 
+                    className="w-full h-64 object-cover"
+                  />
+                  <div className="p-4">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Secure & Reliable</h3>
+                    <p className="text-gray-600 text-sm">100% secure transactions with local payment methods.</p>
+                  </div>
                 </div>
               </div>
             </div>
