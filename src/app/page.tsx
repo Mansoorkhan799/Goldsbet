@@ -446,10 +446,10 @@ export default function Home() {
         </div>
       </section>
 
-          {/* Full-Size Images Section */}
-          <section className="py-12 sm:py-16 lg:py-20 bg-white">
+          {/* App Screenshots Section */}
+          <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+              <div className="text-center mb-12 sm:mb-16 lg:mb-20">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
                   GoldsBet App Screenshots
                 </h2>
@@ -458,31 +458,31 @@ export default function Home() {
                 </p>
               </div>
               
-              <div className="space-y-8">
+              <div className="space-y-12 sm:space-y-16 lg:space-y-20">
                 <div className="text-center">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">Premium Gaming Experience</h3>
+                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Premium Gaming Experience</h3>
                   <img 
                     src="/Golds%20bet.webp" 
                     alt="GoldsBet Premium Gaming Experience" 
-                    className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
+                    className="w-full max-w-3xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
                 
                 <div className="text-center">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">Localized Payment Methods</h3>
+                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Localized Payment Methods</h3>
                   <img 
                     src="/Goldsbet%20Game%20Pakistan.webp" 
                     alt="GoldsBet Pakistan Payment Methods" 
-                    className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
+                    className="w-full max-w-3xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
                 
                 <div className="text-center">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">Secure Gaming Platform</h3>
+                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Secure Gaming Platform</h3>
                   <img 
                     src="/Goldsbet%20pk.webp" 
                     alt="GoldsBet PK Secure Platform" 
-                    className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
+                    className="w-full max-w-3xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
               </div>
