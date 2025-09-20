@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Disclaimer & Terms - GoldsBet Gaming App',
@@ -48,7 +49,7 @@ export default function Disclaimer() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Gaming App Disclaimer</h2>
                 <p className="text-gray-600 mb-4">
-                  The GoldsBet gaming app is provided for entertainment purposes. While we strive to ensure 
+                  The <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> gaming app is provided for entertainment purposes. While we strive to ensure 
                   fair play and accurate gaming results, we make no representations or warranties about the 
                   completeness, accuracy, reliability, or availability of our gaming services.
                 </p>
@@ -129,7 +130,7 @@ export default function Disclaimer() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Limitation of Liability</h2>
                 <p className="text-gray-600 mb-4">
-                  To the maximum extent permitted by law, GoldsBet shall not be liable for any direct, 
+                  To the maximum extent permitted by law, <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> shall not be liable for any direct, 
                   indirect, incidental, special, consequential, or punitive damages, including but not 
                   limited to:
                 </p>

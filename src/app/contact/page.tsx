@@ -1,4 +1,5 @@
 // import { Metadata } from 'next';
+import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
 import { CONTACT_INFO, FAQ_DATA } from '@/constants';
 
@@ -24,7 +25,7 @@ export default function Contact() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                Get help with GoldsBet gaming app. Contact our support team for technical issues, account problems, payment queries, and gaming assistance.
+                Get help with <Link href="/" className="text-yellow-400 hover:text-yellow-300 font-semibold">GoldsBet</Link> gaming app. Contact our support team for technical issues, account problems, payment queries, and gaming assistance.
               </p>
           </div>
         </div>
