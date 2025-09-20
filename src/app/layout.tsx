@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://goldsbet.com"),
+  metadataBase: new URL("https://goldsbetpk.tech"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://goldsbet.com",
+    url: "https://goldsbetpk.tech",
     title: "GoldsBet - Premium Betting Platform",
     description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions.",
     siteName: "GoldsBet",

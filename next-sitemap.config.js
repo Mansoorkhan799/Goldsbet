@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://goldsbet.com',
+  siteUrl: process.env.SITE_URL || 'https://goldsbetpk.tech',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ['/admin/*', '/private/*'],
@@ -13,7 +13,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://goldsbet.com/sitemap.xml',
+      'https://goldsbetpk.tech/sitemap.xml',
     ],
   },
   transform: async (config, path) => {

@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
     description: 'Download GoldsBet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
-    url: 'https://goldsbet.com',
+    url: 'https://goldsbetpk.tech',
     siteName: 'GoldsBet',
     images: [
       {
-        url: 'https://goldsbet.com/og-image.jpg',
+        url: 'https://goldsbetpk.tech/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'GoldsBet Gaming App',
@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
     description: 'Download GoldsBet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
-    images: ['https://goldsbet.com/og-image.jpg'],
+    images: ['https://goldsbetpk.tech/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://goldsbet.com',
+    canonical: 'https://goldsbetpk.tech',
   },
 };
 

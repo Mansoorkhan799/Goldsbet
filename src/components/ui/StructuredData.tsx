@@ -4,8 +4,8 @@ export default function StructuredData() {
     "@type": "Organization",
     "name": "GoldsBet",
     "description": "Premium sports betting platform offering competitive odds, live betting, and secure transactions",
-    "url": "https://goldsbet.com",
-    "logo": "https://goldsbet.com/logo.png",
+    "url": "https://goldsbetpk.tech",
+    "logo": "https://goldsbetpk.tech/logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1-234-567-890",
@@ -31,7 +31,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "GoldsBet",
-    "url": "https://goldsbet.com",
+    "url": "https://goldsbetpk.tech",
     "description": "Your premier destination for sports betting and online gaming",
     "publisher": {
       "@type": "Organization",
@@ -39,7 +39,7 @@ export default function StructuredData() {
     },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://goldsbet.com/search?q={search_term_string}",
+      "target": "https://goldsbetpk.tech/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
@@ -52,7 +52,7 @@ export default function StructuredData() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://goldsbet.com"
+        "item": "https://goldsbetpk.tech"
       }
     ]
   };
