@@ -24,7 +24,15 @@ self.addEventListener('install', (event) => {
     caches.open(STATIC_CACHE_NAME)
       .then((cache) => {
         console.log('Service Worker: Caching static assets');
-        return cache.addAll(STATIC_ASSETS);
+        // Cache assets individually to handle failures gracefully
+        return Promise.allSettled(
+          STATIC_ASSETS.map(asset => 
+            cache.add(asset).catch(error => {
+              console.warn(`Service Worker: Failed to cache ${asset}:`, error);
+              return null; // Continue with other assets
+            })
+          )
+        );
       })
       .then(() => {
         console.log('Service Worker: Installation complete');
@@ -32,6 +40,8 @@ self.addEventListener('install', (event) => {
       })
       .catch((error) => {
         console.error('Service Worker: Installation failed', error);
+        // Still skip waiting even if caching fails
+        return self.skipWaiting();
       })
   );
 });
