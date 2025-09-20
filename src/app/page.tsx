@@ -210,7 +210,7 @@ export default function Home() {
                     Introduction
                   </h2>
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
-                    If you want to enjoy an international gaming experience, then download the Goldsbet app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
+                    If you want to enjoy an international gaming experience, then download the <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">Goldsbet</InternalLink> app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
                   </p>
                 </div>
                 
@@ -233,7 +233,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  What is <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> App?
+                  What is GoldsBet App?
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
@@ -252,7 +252,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  Unique Features of <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> App
+                  Unique Features of GoldsBet App
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6 lg:space-y-8">
                   <div className="space-y-3 sm:space-y-4">
@@ -362,7 +362,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  Why Choose <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> App?
+                  Why Choose GoldsBet App?
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
                   Experience the best gaming platform with international standards, secure payments, and exciting rewards.
@@ -564,7 +564,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Download & Install <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> Game?
+                  How to Download & Install GoldsBet Game?
                 </h2>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600">
                   Follow these simple steps to get started with GoldsBet on your device.
@@ -634,7 +634,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Create an Account and Register on the <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> Game App?
+                  How to Create an Account and Register on the GoldsBet Game App?
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <div className="bg-gray-50 p-4 sm:p-6 rounded-lg">
@@ -852,7 +852,7 @@ export default function Home() {
                   User Reviews
                 </h2>
                 <p className="text-xl text-gray-600">
-                  See what our players are saying about <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink>.
+                  See what our players are saying about GoldsBet.
                 </p>
               </div>
 
@@ -900,7 +900,7 @@ export default function Home() {
                   Frequently Asked Questions
                 </h2>
                 <p className="text-xl text-gray-600">
-                  Get answers to common questions about <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink>.
+                  Get answers to common questions about GoldsBet.
                 </p>
               </div>
 

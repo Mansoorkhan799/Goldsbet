@@ -50,7 +50,7 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
           <div
             id={`faq-answer-${index}`}
             className={`transition-all duration-300 ease-in-out overflow-hidden ${
-              openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+              openIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
             }`}
           >
             <div className="px-6 pb-4">
