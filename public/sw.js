@@ -12,7 +12,6 @@ const STATIC_ASSETS = [
   '/disclaimer',
   '/GoldsBet Logo.webp',
   '/goldsbet pakistan.webp',
-  '/goldsbet.webp',
   '/Golds%20bet.webp',
   '/Goldsbet%20Game%20Pakistan.webp',
   '/Goldsbet%20pk.webp',
@@ -148,7 +147,7 @@ self.addEventListener('push', (event) => {
   const options = {
     body: event.data ? event.data.text() : 'New update available!',
     icon: '/GoldsBet Logo.webp',
-    badge: '/goldsbet.webp',
+    badge: '/GoldsBet Logo.webp',
     vibrate: [100, 50, 100],
     data: {
       dateOfArrival: Date.now(),
@@ -163,7 +162,7 @@ self.addEventListener('push', (event) => {
       {
         action: 'close',
         title: 'Close',
-        icon: '/goldsbet.webp'
+        icon: '/GoldsBet Logo.webp'
       }
     ]
   };

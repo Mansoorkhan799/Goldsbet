@@ -95,7 +95,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
         {/* Preload critical resources */}
-        <link rel="preload" href="/goldsbet.webp" as="image" type="image/webp" />
         <link rel="preload" href="/Golds%20bet.webp" as="image" type="image/webp" />
         
         {/* Standard meta tags */}

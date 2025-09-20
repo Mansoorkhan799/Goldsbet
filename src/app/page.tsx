@@ -103,7 +103,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="group relative px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 bg-blue-900 border-2 border-cyan-400 text-white rounded-full font-bold text-sm sm:text-base md:text-lg hover:bg-blue-800 hover:border-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-400/25 flex items-center gap-2 sm:gap-3 md:gap-4 w-full max-w-sm sm:max-w-md md:max-w-lg"
                   >
-                    <span className="relative z-10 text-center flex-1">DOWNLOAD GOLDSBET</span>
+                    <span className="relative z-10 text-center flex-1">DOWNLOAD GOLDS BET</span>
                     <div className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
                       <svg className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
