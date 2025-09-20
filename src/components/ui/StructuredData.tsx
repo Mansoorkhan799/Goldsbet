@@ -21,9 +21,9 @@ export default function StructuredData() {
       "addressCountry": "US"
     },
     "sameAs": [
-      "https://facebook.com/goldsbet",
-      "https://twitter.com/goldsbet",
-      "https://instagram.com/goldsbet"
+      "https://www.facebook.com/share/1JxLkMM3Tn/?mibextid=wwXIfr",
+      "https://x.com/goldsbetpk?s=21&t=pREWCR0SGL2R4kK-TCyECg",
+      "https://www.pinterest.com/Goldsbetpk/"
     ]
   };
 
