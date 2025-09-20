@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
+import InternalLink from '@/components/ui/InternalLink';
 import AppInfoAccordion from '@/components/ui/AppInfoAccordion';
 
 export const metadata: Metadata = {
@@ -196,7 +196,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  What is <Link href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</Link> App?
+                  What is <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> App?
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
@@ -215,7 +215,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  Unique Features of <Link href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</Link> App
+                  Unique Features of <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> App
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6 lg:space-y-8">
                   <div className="space-y-3 sm:space-y-4">
@@ -325,7 +325,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  Why Choose <Link href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</Link> App?
+                  Why Choose <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> App?
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
                   Experience the best gaming platform with international standards, secure payments, and exciting rewards.
@@ -527,7 +527,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Download & Install <Link href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</Link> Game?
+                  How to Download & Install <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> Game?
                 </h2>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600">
                   Follow these simple steps to get started with GoldsBet on your device.
@@ -597,7 +597,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Create an Account and Register on the <Link href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</Link> Game App?
+                  How to Create an Account and Register on the <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink> Game App?
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <div className="bg-gray-50 p-4 sm:p-6 rounded-lg">
@@ -815,7 +815,7 @@ export default function Home() {
                   User Reviews
                 </h2>
                 <p className="text-xl text-gray-600">
-                  See what our players are saying about <Link href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</Link>.
+                  See what our players are saying about <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink>.
                 </p>
               </div>
 
@@ -863,7 +863,7 @@ export default function Home() {
                   Frequently Asked Questions
                 </h2>
                 <p className="text-xl text-gray-600">
-                  Get answers to common questions about <Link href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</Link>.
+                  Get answers to common questions about <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">GoldsBet</InternalLink>.
                 </p>
               </div>
 
