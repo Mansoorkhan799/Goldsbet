@@ -17,7 +17,7 @@ module.exports = {
     ],
   },
   transform: async (config, path) => {
-    // Custom priority and changefreq based on path
+    // Enhanced priority and changefreq based on path
     let priority = 0.7;
     let changefreq = 'weekly';
 
@@ -25,11 +25,11 @@ module.exports = {
       priority = 1.0;
       changefreq = 'daily';
     } else if (path === '/about' || path === '/contact') {
-      priority = 0.8;
-      changefreq = 'monthly';
+      priority = 0.9;
+      changefreq = 'weekly';
     } else if (path === '/privacy' || path === '/disclaimer') {
-      priority = 0.5;
-      changefreq = 'yearly';
+      priority = 0.6;
+      changefreq = 'monthly';
     }
 
     return {

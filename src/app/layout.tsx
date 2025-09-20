@@ -13,11 +13,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "GoldsBet - Premium Betting Platform",
+    default: "GoldsBet - Premium Betting Platform | Pakistan India Bangladesh",
     template: "%s | GoldsBet"
   },
-  description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions.",
-  keywords: ["betting", "sports betting", "online betting", "casino", "gambling", "odds", "live betting"],
+  description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
+  keywords: ["goldsbet", "betting", "sports betting", "online betting", "casino", "gambling", "odds", "live betting", "pakistan betting", "india betting", "bangladesh betting", "mobile betting app", "easyPaisa", "jazzCash", "cryptocurrency betting"],
   authors: [{ name: "GoldsBet Team" }],
   creator: "GoldsBet",
   publisher: "GoldsBet",
@@ -34,15 +34,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://goldsbetpk.tech",
-    title: "GoldsBet - Premium Betting Platform",
-    description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions.",
+    title: "GoldsBet - Premium Betting Platform | Pakistan India Bangladesh",
+    description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
     siteName: "GoldsBet",
+    images: [
+      {
+        url: "https://goldsbetpk.tech/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "GoldsBet Premium Betting Platform",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GoldsBet - Premium Betting Platform",
+    title: "GoldsBet - Premium Betting Platform | Pakistan India Bangladesh",
     description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions.",
     creator: "@goldsbet",
+    images: ["https://goldsbetpk.tech/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -81,6 +90,14 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         
+        {/* Preconnect to critical third-party origins */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        
+        {/* Preload critical resources */}
+        <link rel="preload" href="/goldsbet.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/Golds%20bet.webp" as="image" type="image/webp" />
+        
         {/* Standard meta tags */}
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/goldsbet.webp" />
@@ -88,6 +105,12 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        {/* Performance hints */}
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         
         {/* Service Worker Registration */}
         <script
