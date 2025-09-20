@@ -54,7 +54,7 @@ export default function Home() {
       answer: "We support EasyPaisa, JazzCash, and cryptocurrency for Pakistan, India & Bangladesh. All transactions are secure and encrypted."
     },
     {
-      question: "How do I download the Goldsbet app?",
+      question: "How do I download the Golds Bet app?",
       answer: "You can download the app directly from our website. The download process takes only 2 minutes and is completely free."
     },
     {
@@ -88,7 +88,7 @@ export default function Home() {
                   <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-300 mt-2 block">
                     Free Download for Android and iOS
                   </span>
-                </h1>
+            </h1>
 
                 {/* Subtitle */}
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
@@ -136,7 +136,7 @@ export default function Home() {
                       </svg>
                       App Name
                     </span>
-                    <span className="text-white font-bold text-lg">Goldsbet</span>
+                    <span className="text-white font-bold text-lg">Golds Bet</span>
                   </div>
                   <div className="flex justify-between items-center px-6 py-4 bg-gray-900 hover:bg-gray-850 transition-colors">
                     <span className="text-gray-300 font-medium flex items-center">
@@ -145,7 +145,7 @@ export default function Home() {
                       </svg>
                       Publisher
                     </span>
-                    <span className="text-white font-bold text-lg">Goldsbet.com</span>
+                    <span className="text-white font-bold text-lg">Golds Bet</span>
                   </div>
                   <div className="flex justify-between items-center px-6 py-4 bg-gray-800 hover:bg-gray-750 transition-colors">
                     <span className="text-gray-300 font-medium flex items-center">
@@ -210,7 +210,7 @@ export default function Home() {
                     Introduction
                   </h2>
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
-                    If you want to enjoy an international gaming experience, then download the <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">Goldsbet</InternalLink> app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
+                    If you want to enjoy an international gaming experience, then download the <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">Golds Bet</InternalLink> app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
                   </p>
                 </div>
                 
@@ -621,7 +621,7 @@ export default function Home() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2">•</span>
-                      <span>Android users can just click on the given link and download the Goldsbet Game APK.</span>
+                      <span>Android users can just click on the given link and download the Golds Bet Game APK.</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2">•</span>
@@ -705,7 +705,7 @@ export default function Home() {
                       </li>
                       <li className="flex items-start">
                         <span className="text-blue-600 mr-2">•</span>
-                        <span>For Goldsbet login, use your username or phone number as well as your password to login.</span>
+                        <span>For Golds Bet login, use your username or phone number as well as your password to login.</span>
                       </li>
                     </ul>
                   </div>
@@ -912,7 +912,7 @@ export default function Home() {
                     </div>
                   </div>
                   <p className="text-gray-700 mb-4 italic">
-                    &quot;I have been using other gaming apps, but recently my friend recommended the Goldsbet game app. In my opinion, it has been the best thing that has happened to me. From the games and rewards to the user interface and transactions, everything is seamless. I am earning daily cash playing games like Ludo and Dragon, and Tiger.&quot;
+                    &quot;I have been using other gaming apps, but recently my friend recommended the Golds Bet game app. In my opinion, it has been the best thing that has happened to me. From the games and rewards to the user interface and transactions, everything is seamless. I am earning daily cash playing games like Ludo and Dragon, and Tiger.&quot;
                   </p>
                   <div className="text-sm text-gray-500">- Satisfied Player</div>
                 </div>
@@ -1054,7 +1054,7 @@ export default function Home() {
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
-                    In conclusion, Goldsbet game is a trending gaming app that is popular for all the right reasons. First of all, it is an international app that is available in multiple countries. It has hundreds of engaging and immersive games that you can play in HD graphics. On this free app, you will find ways to earn real cash, such as games, rewards, and bonuses, as well as a referral program. It is safe and secure, and there are fair games to play. Anyone can easily download it and set up their account to play the games. Furthermore, there are different transaction options such as cryptocurrency and e-wallets. Players are loving this free app, and you should also download it and enjoy starting.
+                    In conclusion, Golds Bet game is a trending gaming app that is popular for all the right reasons. First of all, it is an international app that is available in multiple countries. It has hundreds of engaging and immersive games that you can play in HD graphics. On this free app, you will find ways to earn real cash, such as games, rewards, and bonuses, as well as a referral program. It is safe and secure, and there are fair games to play. Anyone can easily download it and set up their account to play the games. Furthermore, there are different transaction options such as cryptocurrency and e-wallets. Players are loving this free app, and you should also download it and enjoy starting.
                   </p>
                 </div>
           </div>
