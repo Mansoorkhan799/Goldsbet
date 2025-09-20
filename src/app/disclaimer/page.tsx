@@ -174,19 +174,8 @@ export default function Disclaimer() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Contact Information</h2>
                 <p className="text-gray-600 mb-4">
-                  If you have questions about this disclaimer or need to report any issues, please contact us:
+                  If you have questions about this disclaimer or need to report any issues, please contact us through our support channels.
                 </p>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <p className="text-gray-600 mb-2">
-                    <strong>Email:</strong> legal@goldsbet.com
-                  </p>
-                  <p className="text-gray-600 mb-2">
-                    <strong>Phone:</strong> +1 (234) 567-890
-                  </p>
-                  <p className="text-gray-600">
-                    <strong>Address:</strong> 123 Business Street, Suite 100, New York, NY 10001
-                  </p>
-                </div>
               </div>
 
               <div className="bg-red-50 border-l-4 border-red-400 p-6 mt-8">
