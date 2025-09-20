@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import InternalLink from '@/components/ui/InternalLink';
 import AppInfoAccordion from '@/components/ui/AppInfoAccordion';
+import FAQAccordion from '@/components/ui/FAQAccordion';
+import MoveToTop from '@/components/ui/MoveToTop';
 
 export const metadata: Metadata = {
   title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
@@ -34,6 +36,41 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const faqData = [
+    {
+      question: "Is the Goldsbet game safe?",
+      answer: "Yes, it is end-to-end encrypted and 100% safe to use. We use advanced security measures to protect your data and transactions."
+    },
+    {
+      question: "What games can I play on Goldsbet online?",
+      answer: "Check the categories and you will find games like Fortune Gems, Rummy, Andar Bahr, Teen Patti, Fishing Rush, and many other options."
+    },
+    {
+      question: "Can I earn real money on the Goldsbet app?",
+      answer: "Yes, absolutely, you can earn real cash and income on this app through various games, bonuses, and referral programs."
+    },
+    {
+      question: "What payment methods are available?",
+      answer: "We support EasyPaisa, JazzCash, and cryptocurrency for Pakistan, India & Bangladesh. All transactions are secure and encrypted."
+    },
+    {
+      question: "How do I download the Goldsbet app?",
+      answer: "You can download the app directly from our website. The download process takes only 2 minutes and is completely free."
+    },
+    {
+      question: "Is there customer support available?",
+      answer: "Yes, we provide 24/7 customer support to help you with any questions or issues you may have."
+    },
+    {
+      question: "Can I play on multiple devices?",
+      answer: "Yes, you can access your account from multiple devices. Your progress and balance are synced across all devices."
+    },
+    {
+      question: "Are there any bonuses for new users?",
+      answer: "Yes, new users get welcome bonuses, download bonuses, and free spins to get started with their gaming experience."
+    }
+  ];
+
   return (
     <div className="min-h-screen">
           {/* GitHub-style Hero Section */}
@@ -867,27 +904,9 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <p className="text-lg font-semibold text-gray-900 mb-3">Is the Goldsbet game safe?</p>
-                  <p className="text-gray-600">Yes, it is end-to-end encrypted and 100% safe to use.</p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <p className="text-lg font-semibold text-gray-900 mb-3">What games can I play on Goldsbet online?</p>
-                  <p className="text-gray-600">Check the categories and you will find games like Fortune Gems, Rummy, Andar Bahr, Teen Patti, Fishing Rush, and many other options.</p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <p className="text-lg font-semibold text-gray-900 mb-3">Can I earn real money on the Goldsbet app?</p>
-                  <p className="text-gray-600">Yes, absolutely, you can earn real cash and income on this app.</p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <p className="text-lg font-semibold text-gray-900 mb-3">What payment methods are available?</p>
-                  <p className="text-gray-600">We support EasyPaisa, JazzCash, and cryptocurrency for Pakistan, India & Bangladesh.</p>
-                </div>
-          </div>
+              <div className="max-w-4xl mx-auto">
+                <FAQAccordion faqs={faqData} />
+              </div>
         </div>
       </section>
 
@@ -1025,6 +1044,7 @@ export default function Home() {
               </div>
         </div>
       </section>
+      <MoveToTop />
     </div>
   );
 }
