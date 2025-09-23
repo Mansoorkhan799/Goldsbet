@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
 import { NAVIGATION_ITEMS } from '@/constants';
 
@@ -15,25 +14,22 @@ export default function Navigation() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <Image 
+              <img 
                 src="/GoldsBet Logo.webp" 
                 alt="GoldsBet Logo" 
-                width={40}
-                height={40}
-                className="h-8 w-auto sm:h-10 sm:w-auto"
-                style={{ width: 'auto', height: 'auto' }}
+                className="h-6 w-auto sm:h-8 sm:w-auto max-w-[120px]"
               />
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-baseline space-x-6">
               {NAVIGATION_ITEMS.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  className="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-base font-semibold transition-colors duration-200 bg-white/10 hover:bg-white/20"
                 >
                   {item.name}
                 </Link>

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { CONTACT_INFO } from '@/constants';
 
 export default function Footer() {
@@ -12,13 +11,10 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="mb-4">
-              <Image 
+              <img 
                 src="/GoldsBet Logo.webp" 
                 alt="GoldsBet Logo" 
-                width={120} 
-                height={40} 
-                className="h-10 w-auto"
-                style={{ width: 'auto', height: 'auto' }}
+                className="h-8 w-auto max-w-[150px]"
               />
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
@@ -52,22 +48,22 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link href="/about.html" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link href="/contact.html" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link href="/privacy.html" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/disclaimer" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link href="/disclaimer.html" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   Disclaimer
                 </Link>
               </li>
@@ -96,10 +92,10 @@ export default function Footer() {
               © {currentYear} GoldsBet. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="/privacy" className="text-gray-400 hover:text-yellow-400 text-sm transition-colors">
+              <Link href="/privacy.html" className="text-gray-400 hover:text-yellow-400 text-sm transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/disclaimer" className="text-gray-400 hover:text-yellow-400 text-sm transition-colors">
+              <Link href="/disclaimer.html" className="text-gray-400 hover:text-yellow-400 text-sm transition-colors">
                 Disclaimer
               </Link>
             </div>

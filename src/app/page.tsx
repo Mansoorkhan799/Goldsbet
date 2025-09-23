@@ -1080,7 +1080,7 @@ export default function Home() {
                   Download App Now
                 </a>
                 <a
-            href="/contact"
+            href="/contact.html"
                   className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-yellow-600 transition-colors duration-200 inline-block"
           >
                   Get Support

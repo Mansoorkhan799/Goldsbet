@@ -69,11 +69,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/goldsbet.webp", sizes: "any", type: "image/webp" },
       { url: "/favicon.ico", sizes: "any" },
     ],
     apple: [
-      { url: "/goldsbet.webp", sizes: "180x180", type: "image/webp" },
+      { url: "/favicon.ico", sizes: "180x180" },
     ],
   },
 };
@@ -99,8 +98,7 @@ export default function RootLayout({
         
         {/* Standard meta tags */}
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/goldsbet.webp" />
-        <link rel="icon" type="image/webp" href="/goldsbet.webp" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

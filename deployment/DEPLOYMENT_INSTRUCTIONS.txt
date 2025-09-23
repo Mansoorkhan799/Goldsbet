@@ -1,0 +1,40 @@
+🚀 HOSTINGER DEPLOYMENT INSTRUCTIONS
+
+1. LOGIN TO HOSTINGER:
+   - Go to hPanel
+   - Navigate to File Manager
+   - Go to public_html folder
+
+2. UPLOAD FILES:
+   - Delete all existing files in public_html
+   - Upload all files from this deployment folder
+   - Make sure .next folder is uploaded completely
+
+3. INSTALL DEPENDENCIES:
+   - Go to Terminal in hPanel
+   - Run: cd public_html
+   - Run: npm install
+   - Run: npm run build (if needed)
+
+4. START THE APPLICATION:
+   - Run: npm start
+   - Or use PM2: pm2 start npm --name "goldsbet" -- start
+
+5. CONFIGURE NODE.JS:
+   - Go to Advanced → Node.js in hPanel
+   - Enable Node.js
+   - Set version to 18.x or 20.x
+   - Set Application Root to /public_html
+
+6. CLOUDFLARE SETUP:
+   - Add your domain to Cloudflare
+   - Update nameservers in Namecheap
+   - Configure DNS records
+   - Enable SSL/TLS
+
+7. TEST YOUR WEBSITE:
+   - Visit your domain
+   - Check all pages load correctly
+   - Test mobile responsiveness
+
+For detailed instructions, see DEPLOYMENT_GUIDE.md

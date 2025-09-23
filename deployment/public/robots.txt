@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Host
+Host: https://goldsbetpk.tech
+
+# Sitemaps
+Sitemap: https://goldsbetpk.tech/sitemap.xml

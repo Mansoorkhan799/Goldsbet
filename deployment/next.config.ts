@@ -1,15 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Static export configuration
-  output: 'export',
-  trailingSlash: false,
-  images: {
-    unoptimized: true,
-  },
-  assetPrefix: '',
-  distDir: 'out',
-  
   // Bundle analysis
   ...(process.env.ANALYZE === 'true' && {
     webpack: (config, { dev, isServer }) => {
@@ -27,15 +18,15 @@ const nextConfig: NextConfig = {
   compress: true,
   poweredByHeader: false,
   
-  // Image optimization disabled for static export
-  // images: {
-  //   formats: ['image/webp', 'image/avif'],
-  //   deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-  //   imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-  //   minimumCacheTTL: 31536000, // 1 year for CDN caching
-  //   dangerouslyAllowSVG: true,
-  //   contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-  // },
+  // Image optimization with CDN support
+  images: {
+    formats: ['image/webp', 'image/avif'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 31536000, // 1 year for CDN caching
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+  },
 
   // Experimental features for better performance
   experimental: {
