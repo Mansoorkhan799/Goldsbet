@@ -6,7 +6,7 @@ import FAQAccordion from '@/components/ui/FAQAccordion';
 import MoveToTop from '@/components/ui/MoveToTop';
 
 export const metadata: Metadata = {
-  title: 'Golds Bet Game Pakistan | Free Download for Android and iOS',
+  title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
   description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting. Available in Pakistan, India, and Bangladesh with secure payments.',
   keywords: ['golds bet app', 'gaming app', 'casino games', 'sports betting', 'pakistan gaming', 'india gaming', 'bangladesh gaming', 'slot machines', 'poker games', 'fish shooting', 'live betting'],
   openGraph: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         url: 'https://goldsbetpk.tech/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Golds Bet Gaming App',
+        alt: 'GoldsBet Gaming App',
       },
     ],
     locale: 'en_US',
@@ -83,7 +83,7 @@ export default function Home() {
                 {/* Main heading */}
                 <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 text-white leading-tight">
                   <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                    Golds Bet Game Pakistan
+                    GoldsBet Game Pakistan
                   </span>
                   <br />
                   <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-300 mt-2 block">
@@ -93,7 +93,7 @@ export default function Home() {
 
                 {/* Subtitle */}
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
-                  The ultimate Golds Bet gaming app for Pakistan, India & Bangladesh. Play slots, cards, poker, fish shooting games, and sports betting with secure payments and real cash rewards.
+                  The ultimate GoldsBet gaming app for Pakistan, India & Bangladesh. Play slots, cards, poker, fish shooting games, and sports betting with secure payments and real cash rewards.
                 </p>
                 
                 {/* Download Button */}
@@ -137,7 +137,7 @@ export default function Home() {
                       </svg>
                       App Name
                     </span>
-                    <span className="text-white font-bold text-lg">Golds Bet</span>
+                    <span className="text-white font-bold text-lg">GoldsBet</span>
                   </div>
                   <div className="flex justify-between items-center px-6 py-4 bg-gray-900 hover:bg-gray-850 transition-colors">
                     <span className="text-gray-300 font-medium flex items-center">
@@ -146,7 +146,7 @@ export default function Home() {
                       </svg>
                       Publisher
                     </span>
-                    <span className="text-white font-bold text-lg">Golds Bet</span>
+                    <span className="text-white font-bold text-lg">GoldsBet</span>
                   </div>
                   <div className="flex justify-between items-center px-6 py-4 bg-gray-800 hover:bg-gray-750 transition-colors">
                     <span className="text-gray-300 font-medium flex items-center">
@@ -211,7 +211,7 @@ export default function Home() {
                     Introduction
                   </h2>
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
-                    If you want to enjoy an international gaming experience, then download the <InternalLink href="/" className="text-yellow-800 hover:text-yellow-900">Golds Bet</InternalLink> app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
+                    If you want to enjoy an international gaming experience, then download the <InternalLink href="/" className="text-yellow-800 hover:text-yellow-900">GoldsBet</InternalLink> app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
                   </p>
                 </div>
                 
