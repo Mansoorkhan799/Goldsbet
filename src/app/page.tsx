@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import InternalLink from '@/components/ui/InternalLink';
 import AppInfoAccordion from '@/components/ui/AppInfoAccordion';
 import FAQAccordion from '@/components/ui/FAQAccordion';
@@ -217,10 +218,13 @@ export default function Home() {
                 {/* Right Section - Image */}
                 <div className="flex justify-center lg:justify-end">
                   <div className="relative w-full max-w-sm lg:max-w-md">
-                    <img
+                    <Image
                       src="/goldsbet pakistan.webp"
                       alt="GoldsBet Pakistan App"
+                      width={400}
+                      height={300}
                       className="w-full h-auto rounded-lg shadow-lg object-contain max-w-xs lg:max-w-sm"
+                      priority
                     />
                   </div>
                 </div>
@@ -461,27 +465,33 @@ export default function Home() {
               <div className="space-y-12 sm:space-y-16 lg:space-y-20">
                 <div className="text-center">
                   <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Premium Gaming Experience</h3>
-                  <img 
+                  <Image 
                     src="/Golds%20bet.webp" 
                     alt="Golds Bet Premium Gaming Experience" 
+                    width={600}
+                    height={400}
                     className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
                 
                 <div className="text-center">
                   <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Localized Payment Methods</h3>
-                  <img 
+                  <Image 
                     src="/Goldsbet%20Game%20Pakistan.webp" 
                     alt="Golds Bet Pakistan Payment Methods" 
+                    width={600}
+                    height={400}
                     className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>
                 
                 <div className="text-center">
                   <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">Secure Gaming Platform</h3>
-                  <img 
+                  <Image 
                     src="/Goldsbet%20pk.webp" 
                     alt="Golds Bet PK Secure Platform" 
+                    width={600}
+                    height={400}
                     className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto rounded-xl shadow-xl"
                   />
                 </div>

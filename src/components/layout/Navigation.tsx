@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { NAVIGATION_ITEMS } from '@/constants';
 
@@ -15,10 +16,13 @@ export default function Navigation() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center group">
-                <img 
+                <Image 
                   src="/GoldsBet Logo.webp" 
                   alt="GoldsBet Logo" 
+                  width={140}
+                  height={48}
                   className="h-8 w-auto sm:h-10 lg:h-12 max-w-[140px] transition-transform duration-300 group-hover:scale-105"
+                  priority
                 />
               </Link>
             </div>

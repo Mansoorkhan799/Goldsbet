@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { CONTACT_INFO } from '@/constants';
 
 export default function Footer() {
@@ -11,9 +12,11 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="mb-4">
-              <img 
+              <Image 
                 src="/GoldsBet Logo.webp" 
                 alt="GoldsBet Logo" 
+                width={150}
+                height={32}
                 className="h-8 w-auto max-w-[150px]"
               />
             </div>
