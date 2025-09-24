@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Golds Bet Game Pakistan | Free Download for Android and iOS',
+    title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
     description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
     images: ['https://goldsbetpk.tech/og-image.jpg'],
   },
