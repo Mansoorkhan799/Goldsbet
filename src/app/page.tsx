@@ -81,15 +81,15 @@ export default function Home() {
             <div className="relative z-10 flex flex-col items-center justify-center min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] px-4 sm:px-6 lg:px-8 pt-8 sm:pt-32 lg:pt-36 pb-16 sm:pb-20">
               <div className="text-center max-w-4xl mx-auto">
                 {/* Main heading */}
-                <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 text-white leading-tight">
-                  <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 text-white leading-tight">
+                  <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent whitespace-nowrap">
                     GoldsBet Game Pakistan
                   </span>
                   <br />
                   <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-300 mt-2 block">
                     Free Download for Android and iOS
                   </span>
-            </h1>
+                </h1>
 
                 {/* Subtitle */}
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
