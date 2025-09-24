@@ -94,7 +94,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
         {/* Preload critical resources */}
-        <link rel="preload" href="/Golds%20bet.webp" as="image" type="image/webp" />
+        {/* Removed Golds bet image preload - now using Next.js Image component */}
         
         {/* Standard meta tags */}
         <link rel="icon" href="/favicon.ico" />
