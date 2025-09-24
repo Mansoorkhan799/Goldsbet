@@ -1,28 +1,19 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Static export configuration
-  output: 'export',
+  // Remove static export - use proper Next.js SSR
+  // output: 'export', // REMOVED - we want SSR
   trailingSlash: false,
   images: {
-    unoptimized: true,
+    unoptimized: false, // Enable image optimization for SSR
   },
-  assetPrefix: '',
-  distDir: 'out',
+  // distDir: 'out', // REMOVED - use default .next directory
   
-  // Bundle analysis
-  ...(process.env.ANALYZE === 'true' && {
-    webpack: (config, { dev, isServer }) => {
-      if (!dev && !isServer) {
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        const BundleAnalyzerPlugin = require('@next/bundle-analyzer')({
-          enabled: true,
-        }).BundleAnalyzerPlugin;
-        config.plugins.push(new BundleAnalyzerPlugin());
-      }
-      return config;
-    },
-  }),
+  // Disable .txt file generation
+  generateBuildId: async () => {
+    return 'goldsbet-build'
+  },
+  
   // Performance optimizations
   compress: true,
   poweredByHeader: false,
@@ -42,8 +33,17 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['@/components'],
   },
 
-  // Webpack configuration to prevent manifest errors
+  // Webpack configuration to prevent manifest errors and fix module loading
   webpack: (config, { dev, isServer }) => {
+    // Bundle analysis
+    if (process.env.ANALYZE === 'true' && !dev && !isServer) {
+      // eslint-disable-next-line @typescript-eslint/no-require-imports
+      const BundleAnalyzerPlugin = require('@next/bundle-analyzer')({
+        enabled: true,
+      }).BundleAnalyzerPlugin;
+      config.plugins.push(new BundleAnalyzerPlugin());
+    }
+
     if (dev && !isServer) {
       // Prevent build manifest errors
       config.watchOptions = {
@@ -53,7 +53,18 @@ const nextConfig: NextConfig = {
       };
     }
 
-    // Optimize bundle size
+    // Fix module resolution issues
+    config.resolve = {
+      ...config.resolve,
+      fallback: {
+        ...config.resolve?.fallback,
+        fs: false,
+        path: false,
+        os: false,
+      },
+    };
+
+    // Optimize bundle size for production
     if (!dev) {
       config.optimization = {
         ...config.optimization,

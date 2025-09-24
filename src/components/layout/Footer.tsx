@@ -48,22 +48,22 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/about.html" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link href="/about" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact.html" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link href="/contact" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="/privacy.html" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link href="/privacy" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/disclaimer.html" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link href="/disclaimer" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   Disclaimer
                 </Link>
               </li>
@@ -92,10 +92,10 @@ export default function Footer() {
               © {currentYear} GoldsBet. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="/privacy.html" className="text-gray-400 hover:text-yellow-400 text-sm transition-colors">
+              <Link href="/privacy" className="text-gray-400 hover:text-yellow-400 text-sm transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/disclaimer.html" className="text-gray-400 hover:text-yellow-400 text-sm transition-colors">
+              <Link href="/disclaimer" className="text-gray-400 hover:text-yellow-400 text-sm transition-colors">
                 Disclaimer
               </Link>
             </div>

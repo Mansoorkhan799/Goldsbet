@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Disclaimer & Terms - GoldsBet Gaming App',
     description: 'Read GoldsBet\'s disclaimer and terms of service for our gaming app. Important information about responsible gaming, risks, and limitations.',
-    url: 'https://goldsbet.com/disclaimer',
+    url: 'https://goldsbetpk.tech/disclaimer',
     siteName: 'GoldsBet',
   },
   alternates: {
-    canonical: 'https://goldsbet.com/disclaimer',
+    canonical: 'https://goldsbetpk.tech/disclaimer',
   },
 };
 

@@ -12,8 +12,8 @@ export const SITE_CONFIG = {
 // Navigation items
 export const NAVIGATION_ITEMS: NavigationItem[] = [
   { name: 'Home', href: '/' },
-  { name: 'About Us', href: '/about.html' },
-  { name: 'Contact Us', href: '/contact.html' },
+  { name: 'About Us', href: '/about' },
+  { name: 'Contact Us', href: '/contact' },
 ];
 
 // Sports data

@@ -121,12 +121,12 @@ export default function Home() {
               {/* App Info Table */}
               <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-xl overflow-hidden shadow-2xl mb-8 border border-gray-700">
                 <div className="bg-gradient-to-r from-gray-700 to-gray-600 px-6 py-4 border-b border-gray-600">
-                  <h3 className="text-xl font-bold text-white flex items-center">
+                  <h2 className="text-xl font-bold text-white flex items-center">
                     <svg className="w-6 h-6 mr-3 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     </svg>
                     App Information
-                  </h3>
+                  </h2>
                 </div>
                 <div className="divide-y divide-gray-700">
                   <div className="flex justify-between items-center px-6 py-4 bg-gray-800 hover:bg-gray-750 transition-colors">
@@ -210,7 +210,7 @@ export default function Home() {
                     Introduction
                   </h2>
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
-                    If you want to enjoy an international gaming experience, then download the <InternalLink href="/" className="text-yellow-600 hover:text-yellow-700">Golds Bet</InternalLink> app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
+                    If you want to enjoy an international gaming experience, then download the <InternalLink href="/" className="text-yellow-800 hover:text-yellow-900">Golds Bet</InternalLink> app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
                   </p>
                 </div>
                 
@@ -556,7 +556,7 @@ export default function Home() {
                   <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
                     If you want to try your luck, slot machines are the best option for you. In these simple games, you just need to select your pay line and then spin the reels. There are some slot machines that have at least 96% RTP. Popular options are Money Coming, Crazy 777, Super Ace, and many others.
                   </p>
-                  <p className="text-xs sm:text-sm text-yellow-600 font-medium">Popular: Money Coming, Crazy 777, Super Ace</p>
+                  <p className="text-xs sm:text-sm text-yellow-800 font-medium">Popular: Money Coming, Crazy 777, Super Ace</p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-gray-200">
@@ -564,7 +564,7 @@ export default function Home() {
                   <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
                     Card games are the most favourite of desi people, including Indians and Bangladeshis. In Pakistan, people like to play strategic games like Teen Patti, Dragon Tiger, 7 Up Down, Ludo, and Rummy. However, these are not similar to slots, and every game has its own gameplay.
                   </p>
-                  <p className="text-xs sm:text-sm text-yellow-600 font-medium">Popular: Teen Patti, Dragon Tiger, Rummy</p>
+                  <p className="text-xs sm:text-sm text-yellow-800 font-medium">Popular: Teen Patti, Dragon Tiger, Rummy</p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-gray-200">
@@ -572,7 +572,7 @@ export default function Home() {
                   <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
                     Live games are more rewarding because you will be playing in real time with real gamers. You can play baccarat and roulette as well as their different variants.
                   </p>
-                  <p className="text-xs sm:text-sm text-yellow-600 font-medium">Popular: Baccarat, Roulette, Real-time</p>
+                  <p className="text-xs sm:text-sm text-yellow-800 font-medium">Popular: Baccarat, Roulette, Real-time</p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-gray-200">
@@ -580,7 +580,7 @@ export default function Home() {
                   <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
                     The Sports category has further different types of sports such as soccer, cricket, tennis, basketball, and many other. Also, depending on your location, it will show you local sports events.
                   </p>
-                  <p className="text-xs sm:text-sm text-yellow-600 font-medium">Popular: Cricket, Football, Tennis</p>
+                  <p className="text-xs sm:text-sm text-yellow-800 font-medium">Popular: Cricket, Football, Tennis</p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-gray-200">
@@ -588,7 +588,7 @@ export default function Home() {
                   <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
                     E-sports are also very engaging to play. There are various channels, such as BBIN Lottery and Saba Lottery.
                   </p>
-                  <p className="text-xs sm:text-sm text-yellow-600 font-medium">Popular: Competitive Gaming</p>
+                  <p className="text-xs sm:text-sm text-yellow-800 font-medium">Popular: Competitive Gaming</p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-gray-200">
@@ -596,7 +596,7 @@ export default function Home() {
                   <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
                     Lottery games are very fun to play. These are played between tons of players who compete against each other. You can check the leaderboard, and those who win the game will get their lottery.
                   </p>
-                  <p className="text-xs sm:text-sm text-yellow-600 font-medium">Popular: BBIN Lottery, Saba Lottery</p>
+                  <p className="text-xs sm:text-sm text-yellow-800 font-medium">Popular: BBIN Lottery, Saba Lottery</p>
                 </div>
               </div>
 
@@ -1075,13 +1075,13 @@ export default function Home() {
                   href="https://rummyreturn.com/?dl=dc9uxm" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="bg-white text-yellow-600 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-50 transition-colors duration-200 inline-block"
+                  className="bg-white text-yellow-800 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-50 transition-colors duration-200 inline-block"
                 >
                   Download App Now
                 </a>
                 <a
-            href="/contact.html"
-                  className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-yellow-600 transition-colors duration-200 inline-block"
+            href="/contact"
+                  className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-yellow-800 transition-colors duration-200 inline-block"
           >
                   Get Support
                 </a>

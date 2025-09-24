@@ -1,9 +1,13 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function ExtensionCleaner() {
+  const [isClient, setIsClient] = useState(false);
+
   useEffect(() => {
+    setIsClient(true);
+    
     // Only run on client side
     if (typeof window === 'undefined') return;
 
@@ -28,6 +32,11 @@ export default function ExtensionCleaner() {
       clearTimeout(timeoutId);
     };
   }, []);
+
+  // Don't render anything on server side to prevent hydration mismatch
+  if (!isClient) {
+    return null;
+  }
 
   return null;
 }

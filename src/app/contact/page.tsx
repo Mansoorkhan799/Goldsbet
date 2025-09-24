@@ -7,6 +7,15 @@ export const metadata = {
   title: 'Contact GoldsBet - Gaming App Support',
   description: 'Get help with GoldsBet gaming app. Contact our support team for technical issues, account problems, payment queries, and gaming assistance in Pakistan, India & Bangladesh.',
   keywords: ['goldsbet support', 'gaming app help', 'customer support', 'technical support', 'gaming assistance', 'app support'],
+  openGraph: {
+    title: 'Contact GoldsBet - Gaming App Support',
+    description: 'Get help with GoldsBet gaming app. Contact our support team for technical issues, account problems, payment queries, and gaming assistance.',
+    url: 'https://goldsbetpk.tech/contact',
+    siteName: 'GoldsBet',
+  },
+  alternates: {
+    canonical: 'https://goldsbetpk.tech/contact',
+  },
 };
 
 export default function Contact() {

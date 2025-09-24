@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Privacy Policy - GoldsBet Gaming App',
     description: 'Read GoldsBet\'s privacy policy for our gaming app. Learn how we protect your personal information, gaming data, and financial transactions.',
-    url: 'https://goldsbet.com/privacy',
+    url: 'https://goldsbetpk.tech/privacy',
     siteName: 'GoldsBet',
   },
   alternates: {
-    canonical: 'https://goldsbet.com/privacy',
+    canonical: 'https://goldsbetpk.tech/privacy',
   },
 };
 
