@@ -1,40 +1,49 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Bundle analysis
-  ...(process.env.ANALYZE === 'true' && {
-    webpack: (config, { dev, isServer }) => {
-      if (!dev && !isServer) {
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        const BundleAnalyzerPlugin = require('@next/bundle-analyzer')({
-          enabled: true,
-        }).BundleAnalyzerPlugin;
-        config.plugins.push(new BundleAnalyzerPlugin());
-      }
-      return config;
-    },
-  }),
+  // Remove static export - use proper Next.js SSR
+  // output: 'export', // REMOVED - we want SSR
+  trailingSlash: false,
+  images: {
+    unoptimized: false, // Enable image optimization for SSR
+  },
+  // distDir: 'out', // REMOVED - use default .next directory
+  
+  // Disable .txt file generation
+  generateBuildId: async () => {
+    return 'goldsbet-build'
+  },
+  
   // Performance optimizations
   compress: true,
   poweredByHeader: false,
   
-  // Image optimization with CDN support
-  images: {
-    formats: ['image/webp', 'image/avif'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 31536000, // 1 year for CDN caching
-    dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-  },
+  // Image optimization disabled for static export
+  // images: {
+  //   formats: ['image/webp', 'image/avif'],
+  //   deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+  //   imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+  //   minimumCacheTTL: 31536000, // 1 year for CDN caching
+  //   dangerouslyAllowSVG: true,
+  //   contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+  // },
 
   // Experimental features for better performance
   experimental: {
     optimizePackageImports: ['@/components'],
   },
 
-  // Webpack configuration to prevent manifest errors
+  // Webpack configuration to prevent manifest errors and fix module loading
   webpack: (config, { dev, isServer }) => {
+    // Bundle analysis
+    if (process.env.ANALYZE === 'true' && !dev && !isServer) {
+      // eslint-disable-next-line @typescript-eslint/no-require-imports
+      const BundleAnalyzerPlugin = require('@next/bundle-analyzer')({
+        enabled: true,
+      }).BundleAnalyzerPlugin;
+      config.plugins.push(new BundleAnalyzerPlugin());
+    }
+
     if (dev && !isServer) {
       // Prevent build manifest errors
       config.watchOptions = {
@@ -44,7 +53,18 @@ const nextConfig: NextConfig = {
       };
     }
 
-    // Optimize bundle size
+    // Fix module resolution issues
+    config.resolve = {
+      ...config.resolve,
+      fallback: {
+        ...config.resolve?.fallback,
+        fs: false,
+        path: false,
+        os: false,
+      },
+    };
+
+    // Optimize bundle size for production
     if (!dev) {
       config.optimization = {
         ...config.optimization,

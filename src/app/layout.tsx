@@ -13,10 +13,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Golds Bet - Premium Betting Platform | Pakistan India Bangladesh",
+    default: "GoldsBet - Premium Betting Platform | Pakistan India Bangladesh",
     template: "%s | Golds Bet"
   },
-  description: "Golds Bet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
+  description: "GoldsBet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
   keywords: ["golds bet", "betting", "sports betting", "online betting", "casino", "gambling", "odds", "live betting", "pakistan betting", "india betting", "bangladesh betting", "mobile betting app", "easyPaisa", "jazzCash", "cryptocurrency betting"],
   authors: [{ name: "Golds Bet Team" }],
   creator: "Golds Bet",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://goldsbetpk.tech",
-    title: "Golds Bet - Premium Betting Platform | Pakistan India Bangladesh",
+    title: "GoldsBet - Premium Betting Platform | Pakistan India Bangladesh",
     description: "Golds Bet is a premium betting platform offering the best sports betting experience with competitive odds, live betting, and secure transactions. Available in Pakistan, India & Bangladesh.",
     siteName: "Golds Bet",
     images: [
@@ -69,10 +69,12 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.ico", sizes: "16x16" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
     ],
     apple: [
-      { url: "/favicon.ico", sizes: "180x180" },
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
   },
 };
@@ -97,8 +99,10 @@ export default function RootLayout({
         {/* Removed Golds bet image preload - now using Next.js Image component */}
         
         {/* Standard meta tags */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes="16x16" />
+        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
+        <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

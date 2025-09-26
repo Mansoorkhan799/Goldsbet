@@ -1,7 +1,7 @@
 // Service Worker for GoldsBet
-const CACHE_NAME = 'goldsbet-v1.0.0';
-const STATIC_CACHE_NAME = 'goldsbet-static-v1.0.0';
-const DYNAMIC_CACHE_NAME = 'goldsbet-dynamic-v1.0.0';
+const CACHE_NAME = 'goldsbet-v3.1.0';
+const STATIC_CACHE_NAME = 'goldsbet-static-v3.1.0';
+const DYNAMIC_CACHE_NAME = 'goldsbet-dynamic-v3.1.0';
 
 // Static assets to cache immediately
 const STATIC_ASSETS = [
@@ -21,20 +21,34 @@ const STATIC_ASSETS = [
 
 // Install event - cache static assets
 self.addEventListener('install', (event) => {
-  console.log('Service Worker: Installing...');
+  console.log('Service Worker: Installing v3.1.0...');
   event.waitUntil(
-    caches.open(STATIC_CACHE_NAME)
+    // Clear all old caches first
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName.startsWith('goldsbet-')) {
+            console.log('Service Worker: Deleting old cache', cacheName);
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    }).then(() => {
+      return caches.open(STATIC_CACHE_NAME);
+    })
       .then((cache) => {
         console.log('Service Worker: Caching static assets');
         // Cache assets individually to handle failures gracefully
         return Promise.allSettled(
           STATIC_ASSETS.map(asset => 
             cache.add(asset).catch(error => {
-              console.warn(`Service Worker: Failed to cache ${asset}:`, error);
-              return null; // Continue with other assets
+              // Silently continue with other assets
+              return null;
             })
           )
-        );
+        ).then(() => {
+          return Promise.resolve();
+        });
       })
       .then(() => {
         console.log('Service Worker: Installation complete');
@@ -42,7 +56,6 @@ self.addEventListener('install', (event) => {
       })
       .catch((error) => {
         console.error('Service Worker: Installation failed', error);
-        // Still skip waiting even if caching fails
         return self.skipWaiting();
       })
   );
@@ -85,17 +98,30 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Skip .html.txt requests that cause 404 errors
+  if (url.pathname.endsWith('.html.txt')) {
+    return;
+  }
+
+  // Skip requests with _rsc parameter (Next.js internal)
+  if (url.searchParams.has('_rsc')) {
+    return;
+  }
+
+  // Skip requests to non-existent paths
+  if (url.pathname.includes('.txt') && !url.pathname.endsWith('robots.txt')) {
+    return;
+  }
+
   event.respondWith(
     caches.match(request)
       .then((cachedResponse) => {
         // Return cached version if available
         if (cachedResponse) {
-          console.log('Service Worker: Serving from cache', request.url);
           return cachedResponse;
         }
 
         // Otherwise fetch from network
-        console.log('Service Worker: Fetching from network', request.url);
         return fetch(request)
           .then((response) => {
             // Don't cache non-successful responses
@@ -110,19 +136,21 @@ self.addEventListener('fetch', (event) => {
             caches.open(DYNAMIC_CACHE_NAME)
               .then((cache) => {
                 cache.put(request, responseToCache);
+              })
+              .catch(() => {
+                // Silently handle cache errors
               });
 
             return response;
           })
           .catch((error) => {
-            console.error('Service Worker: Fetch failed', error);
-            
             // Return offline page for navigation requests
             if (request.destination === 'document') {
               return caches.match('/');
             }
             
-            throw error;
+            // For other requests, return a basic response instead of throwing
+            return new Response('', { status: 404 });
           });
       })
   );
