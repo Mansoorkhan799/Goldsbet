@@ -113,24 +113,26 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         
-        {/* Service Worker Registration */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              if ('serviceWorker' in navigator) {
-                window.addEventListener('load', function() {
-                  navigator.serviceWorker.register('/sw.js')
-                    .then(function(registration) {
-                      console.log('Service Worker registered successfully:', registration.scope);
-                    })
-                    .catch(function(error) {
-                      console.log('Service Worker registration failed:', error);
-                    });
-                });
-              }
-            `,
-          }}
-        />
+        {/* Service Worker Registration (production only) */}
+        {process.env.NODE_ENV === 'production' && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                if ('serviceWorker' in navigator) {
+                  window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('/sw.js')
+                      .then(function(registration) {
+                        console.log('Service Worker registered successfully:', registration.scope);
+                      })
+                      .catch(function(error) {
+                        console.log('Service Worker registration failed:', error);
+                      });
+                  });
+                }
+              `,
+            }}
+          />
+        )}
       </head>
           <body className="min-h-screen text-gray-900 antialiased" suppressHydrationWarning={true}>
             <ExtensionCleaner />

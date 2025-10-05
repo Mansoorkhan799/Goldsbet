@@ -58,7 +58,7 @@ export default function Navigation() {
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="inline-flex items-center justify-center p-2 rounded-lg text-white hover:text-yellow-400 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-all duration-300"
-                aria-expanded="false"
+                aria-expanded={isMenuOpen}
                 aria-label="Toggle navigation menu"
               >
                 <span className="sr-only">Open main menu</span>
