@@ -21,7 +21,8 @@ export default function Navigation() {
                   alt="GoldsBet Logo" 
                   width={140}
                   height={48}
-                  className="h-8 w-auto sm:h-10 lg:h-12 max-w-[140px] transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 640px) 112px, (max-width: 1024px) 144px, 192px"
+                  className="h-8 sm:h-10 lg:h-12 w-auto transition-transform duration-300 group-hover:scale-105"
                   priority
                 />
               </Link>

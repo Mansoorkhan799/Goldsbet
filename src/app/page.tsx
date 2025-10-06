@@ -79,6 +79,7 @@ export default function Home() {
             
             {/* Content */}
             <div className="relative z-10 flex flex-col items-center justify-center min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] px-4 sm:px-6 lg:px-8 pt-8 sm:pt-32 lg:pt-36 pb-16 sm:pb-20">
+<<<<<<< HEAD
               <div className="text-center max-w-4xl mx-auto">
                 {/* Main heading */}
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 text-white leading-tight">
@@ -87,25 +88,50 @@ export default function Home() {
                   </span>
                   <br />
                   <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-300 mt-2 block">
+=======
+              <div className="text-center max-w-4xl mx-auto w-full">
+                {/* Main heading */}
+                <h1 className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 text-white leading-tight">
+                  <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent break-words block">
+                    GoldsBet Game Pakistan
+                  </span>
+                  <br />
+                  <span className="text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-300 mt-2 sm:mt-2 block">
+>>>>>>> 0535bb7 (feat: improve hero mobile responsiveness, fix logo image warning, disable unused font preload)
                     Free Download for Android and iOS
                   </span>
                 </h1>
 
                 {/* Subtitle */}
+<<<<<<< HEAD
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
+=======
+                <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed px-2 sm:px-4">
+>>>>>>> 0535bb7 (feat: improve hero mobile responsiveness, fix logo image warning, disable unused font preload)
                   The ultimate GoldsBet gaming app for Pakistan, India & Bangladesh. Play slots, cards, poker, fish shooting games, and sports betting with secure payments and real cash rewards.
                 </p>
                 
                 {/* Download Button */}
+<<<<<<< HEAD
                 <div className="flex justify-center items-center px-4">
+=======
+                <div className="flex justify-center items-center px-2 sm:px-4">
+>>>>>>> 0535bb7 (feat: improve hero mobile responsiveness, fix logo image warning, disable unused font preload)
                   <a 
                     href="https://rummyreturn.com/?dl=dc9uxm" 
                     target="_blank" 
                     rel="noopener noreferrer"
+<<<<<<< HEAD
                     className="group relative px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 bg-blue-900 border-2 border-cyan-400 text-white rounded-full font-bold text-sm sm:text-base md:text-lg hover:bg-blue-800 hover:border-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-400/25 flex items-center gap-2 sm:gap-3 md:gap-4 w-full max-w-sm sm:max-w-md md:max-w-lg"
                   >
                     <span className="relative z-10 text-center flex-1">DOWNLOAD GOLDS BET</span>
                     <div className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+=======
+                    className="group relative px-4 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 bg-blue-900 border-2 border-cyan-400 text-white rounded-full font-bold text-sm sm:text-base md:text-lg hover:bg-blue-800 hover:border-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-400/25 flex items-center gap-2 sm:gap-3 md:gap-4 w-full max-w-[320px] sm:max-w-md md:max-w-lg"
+                  >
+                    <span className="relative z-10 text-center flex-1">DOWNLOAD GOLDS BET</span>
+                    <div className="w-5 h-5 sm:w-7 sm:h-7 md:w-8 md:h-8 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+>>>>>>> 0535bb7 (feat: improve hero mobile responsiveness, fix logo image warning, disable unused font preload)
                       <svg className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                       </svg>

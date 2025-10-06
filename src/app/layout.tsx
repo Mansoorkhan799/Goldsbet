@@ -9,6 +9,7 @@ import ExtensionCleaner from "@/components/ui/ExtensionCleaner";
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
