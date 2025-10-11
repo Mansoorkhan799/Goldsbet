@@ -31,11 +31,11 @@ export default function DepositWithdrawPage() {
               <h3 className="text-xl font-semibold text-blue-900 mb-3">Step-by-Step Deposit Process</h3>
               <ol className="list-decimal list-inside text-blue-800 space-y-2">
                 <li>Login to your <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> account</li>
-                <li>Go to your profile and tap "Deposit"</li>
+                <li>Go to your profile and tap &quot;Deposit&quot;</li>
                 <li>Select your preferred payment method</li>
                 <li>Choose your deposit amount (Rs 100 - Rs 500,000)</li>
                 <li>Enter your payment details</li>
-                <li>Click "Deposit Now"</li>
+                <li>Click &quot;Deposit Now&quot;</li>
                 <li>Complete SMS verification</li>
                 <li>Your coins will be added instantly</li>
               </ol>
@@ -100,7 +100,7 @@ export default function DepositWithdrawPage() {
               <h3 className="text-xl font-semibold text-red-900 mb-3">Step-by-Step Withdrawal Process</h3>
               <ol className="list-decimal list-inside text-red-800 space-y-2">
                 <li>Login to your <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> account</li>
-                <li>Go to your profile and tap "Withdraw"</li>
+                <li>Go to your profile and tap &quot;Withdraw&quot;</li>
                 <li>Set up your transaction password (first time only)</li>
                 <li>Select your withdrawal amount</li>
                 <li>Choose your withdrawal method</li>
@@ -179,7 +179,7 @@ export default function DepositWithdrawPage() {
               <h3 className="text-xl font-semibold text-yellow-900 mb-3">Best Practices</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-yellow-800">
                 <div>
-                  <h4 className="font-semibold mb-2">Do's:</h4>
+                  <h4 className="font-semibold mb-2">Do&apos;s:</h4>
                   <ul className="list-disc list-inside space-y-1 text-sm">
                     <li>Start with small amounts</li>
                     <li>Keep transaction records</li>
@@ -189,7 +189,7 @@ export default function DepositWithdrawPage() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Don'ts:</h4>
+                  <h4 className="font-semibold mb-2">Don&apos;ts:</h4>
                   <ul className="list-disc list-inside space-y-1 text-sm">
                     <li>Share account credentials</li>
                     <li>Use public WiFi for transactions</li>
@@ -204,7 +204,7 @@ export default function DepositWithdrawPage() {
             <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 p-6 rounded-lg mt-8">
               <h3 className="text-xl font-semibold text-yellow-900 mb-3">Ready to Start Your GoldsBet Journey?</h3>
               <p className="text-yellow-800 mb-4">
-                Now that you know how to safely deposit and withdraw money, you're ready to enjoy <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> Pakistan!
+                Now that you know how to safely deposit and withdraw money, you&apos;re ready to enjoy <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> Pakistan!
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 

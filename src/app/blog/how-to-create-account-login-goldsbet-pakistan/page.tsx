@@ -49,13 +49,13 @@ export default function CreateAccountPage() {
               <h3 className="text-xl font-semibold text-green-900 mb-3">Step 2: Account Registration</h3>
               <ol className="list-decimal list-inside text-green-800 space-y-2">
                 <li>Open the <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> app on your device</li>
-                <li>Tap on "Register" or "Sign Up" button</li>
+                <li>Tap on &quot;Register&quot; or &quot;Sign Up&quot; button</li>
                 <li>Enter your mobile number (Pakistani number preferred)</li>
                 <li>Create a unique username</li>
                 <li>Set a strong password (minimum 8 characters)</li>
                 <li>Confirm your password</li>
                 <li>Read and accept the terms and conditions</li>
-                <li>Click "Register" to create your account</li>
+                <li>Click &quot;Register&quot; to create your account</li>
               </ol>
             </div>
 
@@ -79,10 +79,10 @@ export default function CreateAccountPage() {
               <h3 className="text-xl font-semibold text-yellow-900 mb-3">Login Process</h3>
               <ol className="list-decimal list-inside text-yellow-800 space-y-2">
                 <li>Open the <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> app</li>
-                <li>Tap on "Login" button</li>
+                <li>Tap on &quot;Login&quot; button</li>
                 <li>Enter your username or mobile number</li>
                 <li>Enter your password</li>
-                <li>Click "Login" to access your account</li>
+                <li>Click &quot;Login&quot; to access your account</li>
               </ol>
             </div>
 

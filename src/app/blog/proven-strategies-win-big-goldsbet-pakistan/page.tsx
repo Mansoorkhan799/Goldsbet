@@ -174,7 +174,7 @@ export default function StrategiesPage() {
             <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 p-6 rounded-lg mt-8">
               <h3 className="text-xl font-semibold text-yellow-900 mb-3">Ready to Apply These Strategies?</h3>
               <p className="text-yellow-800 mb-4">
-                Now that you know the proven strategies, it's time to put them into practice with <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> Pakistan!
+                Now that you know the proven strategies, it&apos;s time to put them into practice with <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> Pakistan!
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
