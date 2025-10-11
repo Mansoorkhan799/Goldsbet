@@ -87,13 +87,13 @@ export default function Home() {
                 </span>
                 <br />
                 <span className="text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-300 mt-2 sm:mt-2 block">
-                  Free Download for Android and iOS
+                  Free Download for Android and iOS in Pakistan
                 </span>
               </h1>
 
               {/* Subtitle */}
               <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed px-2 sm:px-4">
-                The ultimate GoldsBet gaming app for Pakistan, India & Bangladesh. Play slots, cards, poker, fish shooting games, and sports betting with secure payments and real cash rewards.
+                The ultimate GoldsBet gaming app for Pakistan, India & Bangladesh. Play slots, cards, poker, fish shooting games, and sports betting with secure payments and real cash rewards in Pakistan.
               </p>
               
               {/* Download Button */}
@@ -104,7 +104,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="group relative px-4 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 bg-blue-900 border-2 border-cyan-400 text-white rounded-full font-bold text-sm sm:text-base md:text-lg hover:bg-blue-800 hover:border-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-400/25 flex items-center gap-2 sm:gap-3 md:gap-4 w-full max-w-[320px] sm:max-w-md md:max-w-lg"
                 >
-                  <span className="relative z-10 text-center flex-1">DOWNLOAD GOLDS BET</span>
+                  <span className="relative z-10 text-center flex-1">DOWNLOAD GOLDS BET PAKISTAN</span>
                   <div className="w-5 h-5 sm:w-7 sm:h-7 md:w-8 md:h-8 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -208,7 +208,7 @@ export default function Home() {
                 {/* Left Section - Text Content */}
                 <div className="space-y-6">
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-                    Introduction
+                    GoldsBet Game Pakistan - Introduction
                   </h2>
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
                     If you want to enjoy an international gaming experience, then download the <InternalLink href="/" className="text-yellow-800 hover:text-yellow-900">GoldsBet</InternalLink> app. It is an international gaming app available in Pakistan, India, and Bangladesh. It has top games like slot machines, card and poker games, fish shooting games, as well as life and sports. Depending on your location, you can get access to the local events and tournaments. On this simple app, you can play hundreds of games and get your hands on free cash. When it comes to security, users do not need to worry because all their data is safe and secure on the app. Let&apos;s check the apps working in detail.
@@ -237,7 +237,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  What is GoldsBet App?
+                  What is GoldsBet App Pakistan?
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
@@ -256,7 +256,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  Unique Features of GoldsBet App
+                  Unique Features of GoldsBet App Pakistan
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6 lg:space-y-8">
                   <div className="space-y-3 sm:space-y-4">
@@ -365,9 +365,9 @@ export default function Home() {
           <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  Why Choose Golds Bet App?
-            </h2>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+                  Why Choose Golds Bet App Pakistan?
+                </h2>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
                   Experience the best Golds Bet gaming platform with international standards, secure payments, and exciting rewards.
             </p>
@@ -618,7 +618,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Download & Install Golds Bet Game?
+                  How to Download & Install Golds Bet Game Pakistan?
                 </h2>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600">
                   Follow these simple steps to get started with Golds Bet on your device.
@@ -688,7 +688,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Create an Account and Register on the Golds Bet Game App?
+                  How to Create an Account and Register on the Golds Bet Game App Pakistan?
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <div className="bg-gray-50 p-4 sm:p-6 rounded-lg">
@@ -772,7 +772,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  How to Deposit & Withdraw Money?
+                  How to Deposit & Withdraw Money in GoldsBet Pakistan?
                 </h2>
               </div>
 
@@ -1060,7 +1060,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                  Conclusion
+                  GoldsBet Game Pakistan - Conclusion
                 </h2>
                 <div className="max-w-4xl mx-auto text-left space-y-4 sm:space-y-6">
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
@@ -1075,10 +1075,10 @@ export default function Home() {
       <section className="py-20 bg-yellow-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Ready to Start Gaming?
+                Ready to Start Gaming in Pakistan?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-                Join thousands of players from Pakistan, India & Bangladesh. Download now and get instant bonuses!
+                Join thousands of players from Pakistan, India & Bangladesh. Download GoldsBet Pakistan now and get instant bonuses!
           </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a 
@@ -1087,7 +1087,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="bg-white text-yellow-800 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-50 transition-colors duration-200 inline-block"
                 >
-                  Download App Now
+                  Download GoldsBet Pakistan App Now
                 </a>
                 <a
             href="/contact"

@@ -2,32 +2,32 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'GoldsBet Gaming Blog | Tips, Strategies & Latest Updates',
-  description: 'Read the latest gaming tips, strategies, and updates from GoldsBet. Learn how to maximize your gaming experience and stay updated with new features.',
-  keywords: ['gaming tips', 'betting strategies', 'casino guides', 'gaming blog', 'mobile gaming tips', 'online gaming advice'],
+  title: 'GoldsBet Pakistan Blog | Account Setup, Strategies & Money Management',
+  description: 'Learn how to create account, login, deposit, withdraw money and use proven strategies to win big in GoldsBet game Pakistan. Complete guide for Pakistani players.',
+  keywords: ['goldsbet pakistan', 'goldsbet account', 'goldsbet login', 'goldsbet deposit', 'goldsbet withdraw', 'goldsbet strategies', 'pakistan gaming', 'mobile gaming pakistan'],
 };
 
 const blogPosts = [
   {
     id: 1,
-    title: 'Top 5 Gaming Strategies for Beginners',
-    excerpt: 'Learn essential strategies to get started with mobile gaming and maximize your entertainment experience.',
-    date: '2025-01-10',
-    slug: 'top-5-gaming-strategies-beginners',
+    title: 'How to Create Account and Login in GoldsBet Game Pakistan',
+    excerpt: 'Complete step-by-step guide to create your GoldsBet account and login securely. Learn account setup, verification process, and security tips for Pakistani players.',
+    date: '2025-01-15',
+    slug: 'how-to-create-account-login-goldsbet-pakistan',
   },
   {
     id: 2,
-    title: 'Understanding Mobile Gaming Security',
-    excerpt: 'Discover how GoldsBet ensures your data and transactions are secure while gaming on mobile devices.',
-    date: '2025-01-08',
-    slug: 'mobile-gaming-security-guide',
+    title: 'Proven Strategies to Win Big in GoldsBet Game Pakistan',
+    excerpt: 'Discover expert strategies and tips to maximize your winnings in GoldsBet Pakistan. Learn bankroll management, game selection, and winning techniques.',
+    date: '2025-01-12',
+    slug: 'proven-strategies-win-big-goldsbet-pakistan',
   },
   {
     id: 3,
-    title: 'Best Practices for Responsible Gaming',
-    excerpt: 'Learn about responsible gaming practices and how to enjoy entertainment while maintaining healthy habits.',
-    date: '2025-01-05',
-    slug: 'responsible-gaming-practices',
+    title: 'How to Deposit and Withdraw Money from GoldsBet Game Pakistan',
+    excerpt: 'Complete guide to deposit and withdraw money safely in GoldsBet Pakistan. Learn about EasyPaisa, JazzCash, and other payment methods available.',
+    date: '2025-01-10',
+    slug: 'deposit-withdraw-money-goldsbet-pakistan',
   },
 ];
 
@@ -37,10 +37,10 @@ export default function BlogPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            GoldsBet Gaming Blog
+            GoldsBet Pakistan Blog
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Stay updated with the latest gaming tips, strategies, and insights to enhance your mobile gaming experience.
+            Complete guides and strategies for Pakistani players to maximize their <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> gaming experience.
           </p>
         </div>
 
@@ -70,12 +70,12 @@ export default function BlogPage() {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-gray-600 mb-4">Stay tuned for more gaming insights and tips!</p>
+          <p className="text-gray-600 mb-4">Ready to start your GoldsBet journey in Pakistan?</p>
           <Link 
             href="/"
             className="inline-flex items-center px-6 py-3 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors"
           >
-            Back to Home
+            Download GoldsBet App
           </Link>
         </div>
       </div>
