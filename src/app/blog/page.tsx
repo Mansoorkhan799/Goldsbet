@@ -33,7 +33,38 @@ const blogPosts = [
 
 export default function BlogPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <>
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Blog",
+            "name": "GoldsBet Pakistan Blog",
+            "description": "Complete guides and strategies for Pakistani players to maximize their GoldsBet gaming experience.",
+            "url": "https://goldsbetpk.tech/blog",
+            "publisher": {
+              "@type": "Organization",
+              "name": "GoldsBet",
+              "url": "https://goldsbetpk.tech"
+            },
+            "inLanguage": "en",
+            "blogPost": blogPosts.map(post => ({
+              "@type": "BlogPosting",
+              "headline": post.title,
+              "description": post.excerpt,
+              "url": `https://goldsbetpk.tech/blog/${post.slug}`,
+              "datePublished": post.date,
+              "author": {
+                "@type": "Organization",
+                "name": "GoldsBet"
+              }
+            }))
+          })
+        }}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -116,5 +147,6 @@ export default function BlogPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
