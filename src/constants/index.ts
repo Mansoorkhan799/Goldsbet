@@ -12,6 +12,8 @@ export const SITE_CONFIG = {
 // Navigation items
 export const NAVIGATION_ITEMS: NavigationItem[] = [
   { name: 'Home', href: '/' },
+  { name: 'Games', href: '/games' },
+  { name: 'Blog', href: '/blog' },
   { name: 'About Us', href: '/about' },
   { name: 'Contact Us', href: '/contact' },
 ];

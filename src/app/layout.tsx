@@ -68,6 +68,7 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
+  category: "technology",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "16x16" },

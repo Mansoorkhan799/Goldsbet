@@ -8,7 +8,7 @@ import MoveToTop from '@/components/ui/MoveToTop';
 export const metadata: Metadata = {
   title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
   description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting. Available in Pakistan, India, and Bangladesh with secure payments.',
-  keywords: ['golds bet app', 'gaming app', 'casino games', 'sports betting', 'pakistan gaming', 'india gaming', 'bangladesh gaming', 'slot machines', 'poker games', 'fish shooting', 'live betting'],
+  keywords: ['golds bet app', 'gaming app', 'casino games', 'sports betting', 'pakistan gaming', 'india gaming', 'bangladesh gaming', 'slot machines', 'poker games', 'fish shooting', 'live betting', 'mobile gaming', 'online casino', 'betting app', 'gaming platform', 'entertainment app', 'mobile entertainment'],
   openGraph: {
     title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
     description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
