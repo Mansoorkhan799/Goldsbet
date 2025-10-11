@@ -9,7 +9,8 @@ export const metadata: Metadata = {
 
 export default function StrategiesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <>
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16 mt-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -212,5 +213,6 @@ export default function StrategiesPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
