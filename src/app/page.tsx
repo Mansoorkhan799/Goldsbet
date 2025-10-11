@@ -5,24 +5,10 @@ import AppInfoAccordion from '@/components/ui/AppInfoAccordion';
 import FAQAccordion from '@/components/ui/FAQAccordion';
 import MoveToTop from '@/components/ui/MoveToTop';
 
-// Static generation for better performance
-export const dynamic = 'force-static';
-
 export const metadata: Metadata = {
   title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
   description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting. Available in Pakistan, India, and Bangladesh with secure payments.',
   keywords: ['golds bet app', 'gaming app', 'casino games', 'sports betting', 'pakistan gaming', 'india gaming', 'bangladesh gaming', 'slot machines', 'poker games', 'fish shooting', 'live betting', 'mobile gaming', 'online casino', 'betting app', 'gaming platform', 'entertainment app', 'mobile entertainment'],
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
   openGraph: {
     title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
     description: 'Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting.',
@@ -87,46 +73,9 @@ export default function Home() {
   ];
 
   return (
-    <>
-      {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "MobileApplication",
-            "name": "GoldsBet Game Pakistan",
-            "description": "Download Golds Bet app for the ultimate gaming experience! Play slots, cards, poker, fish shooting games, and sports betting. Available in Pakistan, India, and Bangladesh with secure payments.",
-            "url": "https://goldsbetpk.tech",
-            "applicationCategory": "GameApplication",
-            "operatingSystem": ["Android", "iOS"],
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "ratingCount": "1250"
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "GoldsBet"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "GoldsBet",
-              "url": "https://goldsbetpk.tech"
-            },
-            "availableCountry": ["PK", "IN", "BD"],
-            "inLanguage": "en"
-          })
-        }}
-      />
-      <div className="min-h-screen">
+    <div className="min-h-screen">
           {/* GitHub-style Hero Section */}
-          <main className="relative min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 overflow-hidden">
+          <section className="relative min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 overflow-hidden">
             
             {/* Content */}
           <div className="relative z-10 flex flex-col items-center justify-center min-h-[100vh] sm:min-h-[80vh] lg:min-h-[70vh] px-4 sm:px-6 lg:px-8 pt-8 sm:pt-32 lg:pt-36 pb-16 sm:pb-20">
@@ -165,16 +114,16 @@ export default function Home() {
               </div>
               </div>
             </div>
-          </main>
+          </section>
 
           {/* App Information Section */}
-          <section className="py-12 bg-gradient-to-br from-gray-800 via-gray-900 to-black" aria-labelledby="app-info-heading">
+          <section className="py-12 bg-gradient-to-br from-gray-800 via-gray-900 to-black">
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
               {/* App Info Table */}
               <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-xl overflow-hidden shadow-2xl mb-8 border border-gray-700">
                 <div className="bg-gradient-to-r from-gray-700 to-gray-600 px-6 py-4 border-b border-gray-600">
-                  <h2 id="app-info-heading" className="text-xl font-bold text-white flex items-center">
-                    <svg className="w-6 h-6 mr-3 text-yellow-400" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <h2 className="text-xl font-bold text-white flex items-center">
+                    <svg className="w-6 h-6 mr-3 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     </svg>
                     App Information
@@ -253,12 +202,12 @@ export default function Home() {
           </section>
 
           {/* Introduction Section */}
-          <section className="py-12 sm:py-16 lg:py-20 bg-white" aria-labelledby="introduction-heading">
+          <section className="py-12 sm:py-16 lg:py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 {/* Left Section - Text Content */}
                 <div className="space-y-6">
-                  <h2 id="introduction-heading" className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
                     GoldsBet Game Pakistan - Introduction
                   </h2>
                   <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
@@ -1151,6 +1100,5 @@ export default function Home() {
       </section>
       <MoveToTop />
     </div>
-    </>
   );
 }
