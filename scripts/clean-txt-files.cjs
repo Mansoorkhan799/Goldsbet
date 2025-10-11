@@ -21,7 +21,7 @@ function deleteTxtFiles(dir) {
 }
 
 // Clean the out directory
-const outDir = path.join(__dirname, '..', 'out');
+const outDir = path.join(process.cwd(), 'out');
 if (fs.existsSync(outDir)) {
   console.log('Cleaning .txt files from out directory...');
   deleteTxtFiles(outDir);
