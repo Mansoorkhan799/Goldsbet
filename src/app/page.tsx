@@ -5,8 +5,8 @@ import AppInfoAccordion from '@/components/ui/AppInfoAccordion';
 import FAQAccordion from '@/components/ui/FAQAccordion';
 import MoveToTop from '@/components/ui/MoveToTop';
 
-// Force SSR for critical content
-export const dynamic = 'force-dynamic';
+// Static generation for better performance
+export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: 'GoldsBet Game Pakistan | Free Download for Android and iOS',
