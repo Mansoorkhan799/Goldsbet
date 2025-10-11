@@ -62,7 +62,7 @@ export default function CreateAccountPage() {
             <div className="bg-purple-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-semibold text-purple-900 mb-3">Step 3: Account Verification</h3>
               <p className="text-purple-800 mb-4">
-                After registration, you'll need to verify your account for security purposes:
+                After registration, you&apos;ll need to verify your account for security purposes:
               </p>
               <ul className="list-disc list-inside text-purple-800 space-y-2">
                 <li>Check your SMS for verification code</li>
@@ -106,12 +106,12 @@ export default function CreateAccountPage() {
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Common Problems and Solutions</h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-gray-800">Can't receive verification SMS?</h4>
+                  <h4 className="font-semibold text-gray-800">Can&apos;t receive verification SMS?</h4>
                   <p className="text-gray-700">Check your mobile network, ensure you have sufficient balance, and try again after a few minutes.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">Forgot your password?</h4>
-                  <p className="text-gray-700">Use the "Forgot Password" option and follow the SMS verification process to reset your password.</p>
+                  <p className="text-gray-700">Use the &quot;Forgot Password&quot; option and follow the SMS verification process to reset your password.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">Account locked or suspended?</h4>
