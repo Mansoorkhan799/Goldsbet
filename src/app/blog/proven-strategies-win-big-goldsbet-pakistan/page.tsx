@@ -11,7 +11,7 @@ export default function StrategiesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16">
+      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16 mt-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/blog" className="text-yellow-400 hover:text-yellow-300 font-medium mb-6 inline-flex items-center transition-colors">
             <svg className="mr-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@ export default function StrategiesPage() {
             <div className="bg-blue-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-semibold text-blue-900 mb-3">1. Set a Daily Budget</h3>
               <p className="text-blue-800 mb-4">
-                The most important strategy for <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> success is proper bankroll management:
+                The most important strategy for GoldsBet success is proper bankroll management:
               </p>
               <ul className="list-disc list-inside text-blue-800 space-y-2">
                 <li>Set aside a specific amount for daily gaming</li>
@@ -189,7 +189,7 @@ export default function StrategiesPage() {
             <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 p-6 rounded-lg mt-8">
               <h3 className="text-xl font-semibold text-yellow-900 mb-3">Ready to Apply These Strategies?</h3>
               <p className="text-yellow-800 mb-4">
-                Now that you know the proven strategies, it&apos;s time to put them into practice with <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> Pakistan!
+                Now that you know the proven strategies, it&apos;s time to put them into practice with GoldsBet Pakistan!
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 

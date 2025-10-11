@@ -11,7 +11,7 @@ export default function DepositWithdrawPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16">
+      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16 mt-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/blog" className="text-yellow-400 hover:text-yellow-300 font-medium mb-6 inline-flex items-center transition-colors">
             <svg className="mr-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@ export default function DepositWithdrawPage() {
             <div className="bg-blue-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-semibold text-blue-900 mb-3">Step-by-Step Deposit Process</h3>
               <ol className="list-decimal list-inside text-blue-800 space-y-2">
-                <li>Login to your <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> account</li>
+                <li>Login to your GoldsBet account</li>
                 <li>Go to your profile and tap &quot;Deposit&quot;</li>
                 <li>Select your preferred payment method</li>
                 <li>Choose your deposit amount (Rs 100 - Rs 500,000)</li>
@@ -114,7 +114,7 @@ export default function DepositWithdrawPage() {
             <div className="bg-red-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-semibold text-red-900 mb-3">Step-by-Step Withdrawal Process</h3>
               <ol className="list-decimal list-inside text-red-800 space-y-2">
-                <li>Login to your <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> account</li>
+                <li>Login to your GoldsBet account</li>
                 <li>Go to your profile and tap &quot;Withdraw&quot;</li>
                 <li>Set up your transaction password (first time only)</li>
                 <li>Select your withdrawal amount</li>
@@ -154,7 +154,7 @@ export default function DepositWithdrawPage() {
             <div className="bg-indigo-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-semibold text-indigo-900 mb-3">Keeping Your Money Safe</h3>
               <ul className="list-disc list-inside text-indigo-800 space-y-2">
-                <li>Always use official <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> channels</li>
+                <li>Always use official GoldsBet channels</li>
                 <li>Never share your account details with anyone</li>
                 <li>Use strong, unique passwords</li>
                 <li>Enable two-factor authentication</li>
@@ -219,7 +219,7 @@ export default function DepositWithdrawPage() {
             <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 p-6 rounded-lg mt-8">
               <h3 className="text-xl font-semibold text-yellow-900 mb-3">Ready to Start Your GoldsBet Journey?</h3>
               <p className="text-yellow-800 mb-4">
-                Now that you know how to safely deposit and withdraw money, you&apos;re ready to enjoy <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> Pakistan!
+                Now that you know how to safely deposit and withdraw money, you&apos;re ready to enjoy GoldsBet Pakistan!
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 

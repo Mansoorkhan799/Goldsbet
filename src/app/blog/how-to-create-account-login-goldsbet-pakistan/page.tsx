@@ -11,7 +11,7 @@ export default function CreateAccountPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16">
+      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16 mt-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/blog" className="text-yellow-400 hover:text-yellow-300 font-medium mb-6 inline-flex items-center transition-colors">
             <svg className="mr-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@ export default function CreateAccountPage() {
             <div className="bg-blue-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-semibold text-blue-900 mb-3">Step 1: Download the App</h3>
               <p className="text-blue-800 mb-4">
-                First, download the <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> app from our official website. The app is available for both Android and iOS devices.
+                First, download the GoldsBet app from our official website. The app is available for both Android and iOS devices.
               </p>
               <a 
                 href="https://rummyreturn.com/?dl=dc9uxm"
@@ -63,7 +63,7 @@ export default function CreateAccountPage() {
             <div className="bg-green-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-semibold text-green-900 mb-3">Step 2: Account Registration</h3>
               <ol className="list-decimal list-inside text-green-800 space-y-2">
-                <li>Open the <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> app on your device</li>
+                <li>Open the GoldsBet app on your device</li>
                 <li>Tap on &quot;Register&quot; or &quot;Sign Up&quot; button</li>
                 <li>Enter your mobile number (Pakistani number preferred)</li>
                 <li>Create a unique username</li>
@@ -93,7 +93,7 @@ export default function CreateAccountPage() {
             <div className="bg-yellow-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-semibold text-yellow-900 mb-3">Login Process</h3>
               <ol className="list-decimal list-inside text-yellow-800 space-y-2">
-                <li>Open the <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> app</li>
+                <li>Open the GoldsBet app</li>
                 <li>Tap on &quot;Login&quot; button</li>
                 <li>Enter your username or mobile number</li>
                 <li>Enter your password</li>
@@ -138,7 +138,7 @@ export default function CreateAccountPage() {
             <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 p-6 rounded-lg mt-8">
               <h3 className="text-xl font-semibold text-yellow-900 mb-3">Ready to Start Gaming?</h3>
               <p className="text-yellow-800 mb-4">
-                Now that you have your <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> account ready, you can start enjoying our amazing games and features!
+                Now that you have your GoldsBet account ready, you can start enjoying our amazing games and features!
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
