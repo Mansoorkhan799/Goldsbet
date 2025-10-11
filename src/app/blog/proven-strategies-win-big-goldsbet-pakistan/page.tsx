@@ -9,20 +9,34 @@ export const metadata: Metadata = {
 
 export default function StrategiesPage() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-white rounded-lg shadow-lg p-8">
-          <div className="mb-8">
-            <Link href="/blog" className="text-yellow-600 hover:text-yellow-700 font-medium mb-4 inline-block">
-              ← Back to Blog
-            </Link>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Link href="/blog" className="text-yellow-400 hover:text-yellow-300 font-medium mb-6 inline-flex items-center transition-colors">
+            <svg className="mr-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+            Back to Blog
+          </Link>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+            <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
               Proven Strategies to Win Big in GoldsBet Game Pakistan
-            </h1>
-            <p className="text-lg text-gray-600">
-              Expert strategies and tips to maximize your winnings in <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> Pakistan. Learn from the pros!
-            </p>
-          </div>
+            </span>
+          </h1>
+          <p className="text-xl text-gray-300 leading-relaxed">
+            Expert strategies and tips to maximize your winnings in{' '}
+            <Link href="/" className="text-yellow-400 hover:text-yellow-300 font-semibold transition-colors">
+              GoldsBet
+            </Link>{' '}
+            Pakistan. Learn from the pros!
+          </p>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="bg-white rounded-xl shadow-xl p-8 md:p-12">
+          <div className="mb-8">
 
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Bankroll Management Strategies</h2>

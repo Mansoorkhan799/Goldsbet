@@ -33,31 +33,48 @@ const blogPosts = [
 
 export default function BlogPage() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            GoldsBet Pakistan Blog
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
+              GoldsBet Pakistan Blog
+            </span>
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Complete guides and strategies for Pakistani players to maximize their <Link href="/" className="text-yellow-600 hover:text-yellow-700 font-semibold">GoldsBet</Link> gaming experience.
+          <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+            Complete guides and strategies for Pakistani players to maximize their{' '}
+            <Link href="/" className="text-yellow-400 hover:text-yellow-300 font-semibold transition-colors">
+              GoldsBet
+            </Link>{' '}
+            gaming experience.
           </p>
         </div>
+      </div>
 
+      {/* Blog Posts Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
-            <article key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <article key={post.id} className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+              {/* Card Header with Gradient */}
+              <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 p-4">
+                <div className="text-sm text-yellow-100 font-medium">{post.date}</div>
+              </div>
+              
+              {/* Card Content */}
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">{post.date}</div>
-                <h2 className="text-xl font-semibold text-gray-900 mb-3">
+                <h2 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-yellow-600 transition-colors duration-300">
                   <Link href={`/blog/${post.slug}`} className="hover:text-yellow-600 transition-colors">
                     {post.title}
                   </Link>
                 </h2>
-                <p className="text-gray-600 mb-4">{post.excerpt}</p>
+                <p className="text-gray-600 mb-6 leading-relaxed">{post.excerpt}</p>
+                
+                {/* Read More Button */}
                 <Link 
                   href={`/blog/${post.slug}`}
-                  className="inline-flex items-center text-yellow-600 hover:text-yellow-700 font-medium"
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white rounded-lg hover:from-yellow-600 hover:to-yellow-700 transition-all duration-300 font-semibold shadow-md hover:shadow-lg transform hover:scale-105"
                 >
                   Read More
                   <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -69,14 +86,33 @@ export default function BlogPage() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <p className="text-gray-600 mb-4">Ready to start your GoldsBet journey in Pakistan?</p>
-          <Link 
-            href="/"
-            className="inline-flex items-center px-6 py-3 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors"
-          >
-            Download GoldsBet App
-          </Link>
+        {/* Call to Action Section */}
+        <div className="text-center mt-16">
+          <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-2xl p-8 md:p-12 shadow-lg">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Ready to Start Your GoldsBet Journey in Pakistan?
+            </h2>
+            <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+              Join thousands of Pakistani players who are already winning big with GoldsBet. Download the app now and get instant bonuses!
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link 
+                href="/"
+                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white rounded-xl hover:from-yellow-600 hover:to-yellow-700 transition-all duration-300 font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                <svg className="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                Download GoldsBet App
+              </Link>
+              <Link 
+                href="/contact"
+                className="inline-flex items-center px-8 py-4 border-2 border-yellow-500 text-yellow-600 rounded-xl hover:bg-yellow-500 hover:text-white transition-all duration-300 font-bold text-lg"
+              >
+                Get Support
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
